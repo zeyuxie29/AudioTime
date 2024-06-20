@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diverse Audio Generation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 添加样式文件链接 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ece3e3;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #cec9c9;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        audio {
+            width: 100%;
+            max-width: 320px;
+            margin: 1px 0;
+            padding: 0px;
+        }
+
+        img {
+            max-width: 100%;
+            height: 180px;
+            width:auto;       
+            border-radius: 10px;
+        }
+        .sample_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .sample_2 {
+            flex: 0 0 40%; /* 每个样例占30%的宽度 */
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #d4bbbb;
+            text-align: center;
+        }
+        .sample_3 {
+            flex: 0 0 30%; /* 每个样例占30%的宽度 */
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #d4bbbb;
+            text-align: center;
+        }
+        .sample_4 {
+            flex: 0 0 21%; /* 每个样例占30%的宽度 */
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #d4bbbb;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diverse Audio Generation</h1>
+        
+        <p>Welcome to our demo website, where you can listen to various audio samples we've generated in different categories. </p>
+        <!--
+        <p>You can quickly navigate to the category you want to hear using the navigation bar.</p>
+        -->
+    </header>
+    <!--
+    <nav>
+        <ul>
+            <li><a href="#section1" class="anchor-link">Dog Bark</a></li>
+            <li><a href="#section2" class="anchor-link">Footstep</a></li>
+            <li><a href="#section3" class="anchor-link">Gunshot</a></li>          
+            <li><a href="#section4" class="anchor-link">Keyboard</a></li>
+            <li><a href="#section5" class="anchor-link">Moving Motor Vehicle</a></li>
+            <li><a href="#section6" class="anchor-link">Rain</a></li>
+        </ul>
+    </nav>
+     -->
+     <nav></nav>
+    <div class="container">
+        
+        <section id="section1">
+            
+            <h2>Dog Bark</h2>
+            <div class="sample_container">
+                <div class="sample_2">
+                    <img src="demo/prototype/dog_bark_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_2">
+                    <img src="demo/prototype/dog_bark_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                </div>          
+            </div>         
+
+        </section>
+
+        <section id="section2">
+            <h2>Footstep</h2>
+            <div class="sample_container">
+                <div class="sample_2">
+                    <img src="demo/prototype/footstep_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_2">
+                    <img src="demo/prototype/footstep_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                </div>          
+            </div>         
+        </section>
+        <section id="section3">
+            <h2>Gunshot <font color="red">Caution, Please lower the volume!</font></h2>
+            <div class="sample_container">
+                <div class="sample_4">
+                    <img src="demo/prototype/gunshot_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_4">
+                    <img src="demo/prototype/gunshot_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>  
+
+                </div>        
+                <div class="sample_4">
+                    <img src="demo/prototype/gunshot_3.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/3_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/3_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_4">
+                    <img src="demo/prototype/gunshot_4.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/4_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/4_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>    
+            </div>         
+            
+        </section>
+        <section id="section4">
+            <h2>Keyboard</h2>
+            <div class="sample_container">
+                <div class="sample_3">
+                    <img src="demo/prototype/keyboard_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_3">
+                    <img src="demo/prototype/keyboard_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                </div>        
+                <div class="sample_3">
+                    <img src="demo/prototype/keyboard_3.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/3_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/3_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                 
+            </div>         
+        </section>
+        <section id="section5">
+            <h2>Moving Motor Vehicle</h2>
+            <div class="sample_container">
+                <div class="sample_2">
+                    <img src="demo/prototype/moving_motor_vehicle_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="sample_2">
+                    <img src="demo/prototype/moving_motor_vehicle_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+
+                </div>          
+            </div>      
+        </section>
+        <section id="section6">
+            <h2>Rain</h2>
+            <div class="sample_container">
+                <div class="sample_3">
+                    <img src="demo/prototype/rain_1.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/1_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/1_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+                <div class="sample_3">
+                    <img src="demo/prototype/rain_2.jpg" alt="fig 2">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/2_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/2_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                  
+                </div>        
+                <div class="sample_3">
+                    <img src="demo/prototype/rain_3.jpg" alt="fig 1">
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/3_1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/3_2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+   
+                </div>
+                 
+            </div>         
+        </section>
+        
+    </div>
+    <footer>
+        &copy; 2023 Diverse Audio Generation
+    </footer>
+</body>
+</html>
