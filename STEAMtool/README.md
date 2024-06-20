@@ -13,7 +13,7 @@ cd STEAMtool
 pip install -e .
 ```
 
-Download the audio-text grounding (ATG) model [checkpoint](https://drive.google.com/file/d/11DVSYY0aRS1W7hUVmHaBObihi3BENxoq/view?usp=sharing),
+Download the audio-text grounding (ATG) model [checkpoint](https://drive.google.com/file/d/1lnkX3AUhFiPvqUZVm-W558sIgyOmHgOZ/view?usp=sharing),
 and put it in the path */STEAMtool/steam/grounding_tool/grounding_ckpt/*.
 
 ## Evaluation
