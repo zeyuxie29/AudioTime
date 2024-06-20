@@ -1,0 +1,24 @@
+model:
+    args:
+        add_proj: false
+        pooling: linear_softmax
+        shared_dim: 512
+        text_forward_keys:
+        - text
+        - text_len
+    audio_encoder:
+        args:
+            freeze_bn: false
+            freeze_cnn: false
+            sample_rate: 32000
+        pretrained: needless
+        type: steam.grounding_tool.models.audio_encoder.Cnn8_Rnn
+    match_fn:
+        args: {}
+        type: steam.grounding_tool.models.match.DotProduct
+    text_encoder:
+        args:
+            embed_dim: 512
+            vocab_size: 5221
+        type: steam.grounding_tool.models.text_encoder.EmbeddingAgg
+    type: steam.grounding_tool.models.audio_text_model.MultiTextBiEncoder

@@ -1,0 +1,5196 @@
+{
+    "syn_1": {
+        "event": {
+            "Cat": [
+                1.092
+            ],
+            "Cowbell": [
+                5.167
+            ]
+        },
+        "caption": "A cat meowed for 1.092 seconds, followed by a cowbell ringing for 5.167 seconds."
+    },
+    "syn_10": {
+        "event": {
+            "Aircraft engine": [
+                8.013
+            ]
+        },
+        "caption": "An aircraft engine ran for 8.013 seconds."
+    },
+    "syn_100": {
+        "event": {
+            "Power saw, circular saw, table saw": [
+                7.764
+            ]
+        },
+        "caption": "A power saw, circular saw, or table saw was active for approximately 7.8 seconds."
+    },
+    "syn_101": {
+        "event": {
+            "Water tap, faucet": [
+                4.33
+            ]
+        },
+        "caption": "A water tap or faucet ran for 4.33 seconds."
+    },
+    "syn_102": {
+        "event": {
+            "Telephone": [
+                1.276
+            ],
+            "Female singing": [
+                3.205
+            ]
+        },
+        "caption": "A telephone rang for 1.276 seconds, then a female sang for 3.205 seconds."
+    },
+    "syn_103": {
+        "event": {
+            "Paper rustling": [
+                2.924
+            ],
+            "Whip": [
+                0.63
+            ]
+        },
+        "caption": "A paper rustled for 2.924 seconds and then a whip cracked for 0.63 seconds."
+    },
+    "syn_104": {
+        "event": {
+            "Sanding": [
+                1.819
+            ],
+            "Whip": [
+                0.464
+            ]
+        },
+        "caption": "Sanding occurred for 1.819 seconds, then a whip cracked for 0.464 seconds."
+    },
+    "syn_105": {
+        "event": {
+            "Buzz": [
+                1.031
+            ],
+            "Whistle": [
+                1.386
+            ]
+        },
+        "caption": "A buzz occurred for 1.031 seconds, followed by a whistle lasting 1.386 seconds."
+    },
+    "syn_106": {
+        "event": {
+            "Rain on surface": [
+                8.481
+            ]
+        },
+        "caption": "Rain fell on a surface continuously for 8.481 seconds."
+    },
+    "syn_107": {
+        "event": {
+            "Burping, eructation": [
+                0.339
+            ],
+            "Tick-tock": [
+                0.427
+            ]
+        },
+        "caption": "A person burped for 0.339 seconds, then the sound of a clock ticking followed for 0.427 seconds."
+    },
+    "syn_108": {
+        "event": {
+            "Fire engine, fire truck (siren)": [
+                9.099
+            ]
+        },
+        "caption": "A fire engine or fire truck siren sounded for exactly 9.099 seconds."
+    },
+    "syn_109": {
+        "event": {
+            "Breathing": [
+                0.425
+            ],
+            "Ding": [
+                0.591
+            ],
+            "Whistle": [
+                1.126
+            ]
+        },
+        "caption": "A person breathed for 0.425 seconds, followed by a ding lasting 0.591 seconds, and a whistle for 1.126 seconds."
+    },
+    "syn_11": {
+        "event": {
+            "Squeak": [
+                0.302
+            ],
+            "Quack": [
+                0.314
+            ]
+        },
+        "caption": "A squeak lasted for 0.302 seconds, followed by a quack for 0.314 seconds."
+    },
+    "syn_110": {
+        "event": {
+            "Rustle": [
+                0.906
+            ],
+            "Machine gun": [
+                1.186
+            ]
+        },
+        "caption": "A rustling occurred for 0.906 seconds, then a machine gun fired for 1.186 seconds."
+    },
+    "syn_111": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ]
+        },
+        "caption": "An engine accelerated, revving with a vroom for 4.283 seconds."
+    },
+    "syn_112": {
+        "event": {
+            "Tick": [
+                0.3
+            ],
+            "Laughter": [
+                1.002
+            ],
+            "Train horn": [
+                1.071
+            ]
+        },
+        "caption": "A ticking sound occurred for 0.3 seconds, then laughter for 1.002 seconds, followed by a train horn for 1.071 seconds."
+    },
+    "syn_113": {
+        "event": {
+            "Groan": [
+                1.219
+            ],
+            "Civil defense siren": [
+                4.409
+            ]
+        },
+        "caption": "A person groaned for 1.219 seconds, then a civil defense soadern wailed for 4.409 seconds."
+    },
+    "syn_114": {
+        "event": {
+            "Tick": [
+                0.329
+            ],
+            "Sanding": [
+                1.717
+            ]
+        },
+        "caption": "A ticking sound occurred for 0.329 seconds, followed by the sound of sanding for 1.717 seconds."
+    },
+    "syn_115": {
+        "event": {
+            "Oink": [
+                0.323
+            ],
+            "Telephone bell ringing": [
+                1.039
+            ]
+        },
+        "caption": "A pig oinked for 0.323 seconds, and then a telephone bell rang for 1.039 seconds."
+    },
+    "syn_116": {
+        "event": {
+            "Yip": [
+                1.268
+            ],
+            "Gunshot, gunfire": [
+                1.548
+            ]
+        },
+        "caption": "A yip occurred for 1.268 seconds, followed by the sound of a gunshot for 1.548 seconds."
+    },
+    "syn_117": {
+        "event": {
+            "Waterfall": [
+                8.668
+            ]
+        },
+        "caption": "A waterfall is heard with its duration lasting for 8.668 seconds."
+    },
+    "syn_118": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ]
+        },
+        "caption": "A car accelerated and revved with a vroom lasting for 4.283 seconds."
+    },
+    "syn_119": {
+        "event": {
+            "Power tool": [
+                2.135
+            ],
+            "Air horn, truck horn": [
+                0.417
+            ],
+            "Groan": [
+                0.818
+            ]
+        },
+        "caption": "A power tool operated for 2.135 seconds, an air horn sounded for 0.417 seconds, and a groan lasted 0.818 seconds."
+    },
+    "syn_12": {
+        "event": {
+            "Emergency vehicle": [
+                8.36
+            ]
+        },
+        "caption": "An emergency vehicle siren wailed continuously for 8.36 seconds."
+    },
+    "syn_120": {
+        "event": {
+            "Sound effect": [
+                1.694
+            ],
+            "Alarm": [
+                0.528
+            ],
+            "Clang": [
+                0.707
+            ]
+        },
+        "caption": "A sound effect occurred for 1.694 seconds, an alarm sounded for 0.528 seconds, and a clang happened for 0.707 seconds."
+    },
+    "syn_121": {
+        "event": {
+            "Gurgling, bubbling": [
+                3.192
+            ],
+            "Engine knocking": [
+                2.03
+            ]
+        },
+        "caption": "A gurgling, bubbling sound occurred for 3.192 seconds, then engine knocking followed for 2.03 seconds."
+    },
+    "syn_122": {
+        "event": {
+            "Spray": [
+                2.844
+            ]
+        },
+        "caption": "A spray occurred for 2.844 seconds."
+    },
+    "syn_123": {
+        "event": {
+            "Car passing by": [
+                5.514
+            ]
+        },
+        "caption": "A car passed by for 5.514 seconds."
+    },
+    "syn_124": {
+        "event": {
+            "Hammer": [
+                0.25
+            ],
+            "Music": [
+                5.555
+            ]
+        },
+        "caption": "A hammer struck for 0.25 seconds, followed by music playing for 5.555 seconds."
+    },
+    "syn_125": {
+        "event": {
+            "Engine knocking": [
+                8.449
+            ]
+        },
+        "caption": "An engine knocked continuously for 8.449 seconds."
+    },
+    "syn_126": {
+        "event": {
+            "Doorbell": [
+                0.982
+            ],
+            "Fart": [
+                0.651
+            ],
+            "Waterfall": [
+                2.166
+            ]
+        },
+        "caption": "A doorbell chimed for 0.982 seconds, a fart ensued for 0.651 seconds, and a waterfall was heard for 2.166 seconds."
+    },
+    "syn_127": {
+        "event": {
+            "Ship": [
+                3.409
+            ],
+            "Cough": [
+                0.33
+            ]
+        },
+        "caption": "A ship horn blared for 3.409 seconds, then a cough occurred lasting 0.33 seconds."
+    },
+    "syn_128": {
+        "event": {
+            "Yip": [
+                1.268
+            ],
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A yip occurred for 1.268 seconds, then paper rustled for 2.924 seconds."
+    },
+    "syn_129": {
+        "event": {
+            "Police car (siren)": [
+                4.181
+            ]
+        },
+        "caption": "A police car siren wailed for 4.181 seconds."
+    },
+    "syn_13": {
+        "event": {
+            "Filing (rasp)": [
+                8.683
+            ]
+        },
+        "caption": "A filing rasp sound occurred for 8.683 seconds."
+    },
+    "syn_130": {
+        "event": {
+            "Tearing": [
+                1.709
+            ],
+            "Burping, eructation": [
+                3.181
+            ]
+        },
+        "caption": "Someone tore something for about 1.7 seconds, then burped for precisely 3.181 seconds."
+    },
+    "syn_131": {
+        "event": {
+            "Power saw, circular saw, table saw": [
+                7.437
+            ]
+        },
+        "caption": "A power saw, circular saw, and table saw ran for 7.437 seconds."
+    },
+    "syn_132": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ]
+        },
+        "caption": "An engine accelerated and revved with a vroom for 4.283 seconds."
+    },
+    "syn_133": {
+        "event": {
+            "Whip": [
+                0.693
+            ],
+            "Sawing": [
+                1.323
+            ]
+        },
+        "caption": "A whip cracked for 0.693 seconds, followed by the sound of sawing for 1.323 seconds."
+    },
+    "syn_134": {
+        "event": {
+            "Gunshot, gunfire": [
+                0.441
+            ],
+            "Slam": [
+                0.549
+            ],
+            "Glass shatter": [
+                0.694
+            ]
+        },
+        "caption": "A gunshot occurred for 0.441 seconds, followed by a slam lasting 0.549 seconds, and glass shattering for 0.694 seconds."
+    },
+    "syn_135": {
+        "event": {
+            "Doorbell": [
+                0.982
+            ],
+            "Snoring": [
+                1.86
+            ]
+        },
+        "caption": "A doorbell rang for 0.982 seconds, then snoring followed for 1.86 seconds."
+    },
+    "syn_136": {
+        "event": {
+            "Aircraft engine": [
+                7.696
+            ]
+        },
+        "caption": "An aircraft engine ran for 7.696 seconds."
+    },
+    "syn_137": {
+        "event": {
+            "Chirp, tweet": [
+                0.306
+            ],
+            "Jet engine": [
+                2.228
+            ]
+        },
+        "caption": "A chirp and tweet occurred for 0.306 seconds, followed by a jet engine sound for 2.228 seconds."
+    },
+    "syn_138": {
+        "event": {
+            "Chuckle, chortle": [
+                2.142
+            ],
+            "Alarm": [
+                0.528
+            ]
+        },
+        "caption": "A person chuckled and chortled for 2.142 seconds, followed by an alarm sounding for 0.528 seconds."
+    },
+    "syn_139": {
+        "event": {
+            "Static": [
+                1.162
+            ],
+            "Police car (siren)": [
+                3.157
+            ]
+        },
+        "caption": "There was 1.162 seconds of static, followed by a 3.157-second police car siren sound."
+    },
+    "syn_14": {
+        "event": {
+            "Whoosh, swoosh, swish": [
+                0.788
+            ],
+            "Hiss": [
+                2.0
+            ],
+            "Telephone dialing, DTMF": [
+                0.213
+            ]
+        },
+        "caption": "A whooshing sound occurs for 0.788 seconds, followed by a 2-second hiss, and a telephone dials for 0.213 seconds."
+    },
+    "syn_140": {
+        "event": {
+            "Cough": [
+                0.353
+            ],
+            "Shout": [
+                2.015
+            ]
+        },
+        "caption": "A cough occurred for 0.353 seconds, succeeded by a shout lasting 2.015 seconds."
+    },
+    "syn_141": {
+        "event": {
+            "Telephone": [
+                3.502
+            ]
+        },
+        "caption": "A telephone rang for 3.5 seconds."
+    },
+    "syn_142": {
+        "event": {
+            "Plop": [
+                0.228
+            ],
+            "Grunt": [
+                2.024
+            ]
+        },
+        "caption": "A plop occurred lasting 0.228 seconds, followed by a grunt with a 2.024-second duration."
+    },
+    "syn_143": {
+        "event": {
+            "Tick": [
+                0.329
+            ],
+            "Whistle": [
+                1.433
+            ]
+        },
+        "caption": "A ticking sound occurred for 0.329 seconds, followed by a whistle that lasted for 1.433 seconds."
+    },
+    "syn_144": {
+        "event": {
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ],
+            "Whistle": [
+                1.011
+            ]
+        },
+        "caption": "A cock crowed for 1.842 seconds, then a whistle sounded for 1.011 seconds."
+    },
+    "syn_145": {
+        "event": {
+            "Cricket": [
+                0.215
+            ],
+            "Water tap, faucet": [
+                4.065
+            ]
+        },
+        "caption": "A cricket chirped for 0.215 seconds, then a water tap ran for 4.065 seconds."
+    },
+    "syn_146": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Cap gun": [
+                0.315
+            ]
+        },
+        "caption": "A growling occurred for 2.472 seconds, then a cap gun was heard for 0.315 seconds."
+    },
+    "syn_147": {
+        "event": {
+            "Helicopter": [
+                8.821
+            ]
+        },
+        "caption": "A helicopter could be heard for approximately 8.8 seconds."
+    },
+    "syn_148": {
+        "event": {
+            "Jackhammer": [
+                7.378
+            ]
+        },
+        "caption": "A jackhammer was heard continuously for 7.378 seconds."
+    },
+    "syn_149": {
+        "event": {
+            "Lawn mower": [
+                8.633
+            ]
+        },
+        "caption": "A lawn mower operated continuously for 8.6 seconds."
+    },
+    "syn_15": {
+        "event": {
+            "Rumble": [
+                7.606
+            ]
+        },
+        "caption": "A rumble occurred lasting 7.6 seconds."
+    },
+    "syn_150": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Thunder": [
+                2.917
+            ]
+        },
+        "caption": "A hiss lasted for 2 seconds, followed by thunder rumbling for 2.917 seconds."
+    },
+    "syn_151": {
+        "event": {
+            "Dial tone": [
+                1.558
+            ],
+            "Vehicle horn, car horn, honking, toot": [
+                1.212
+            ]
+        },
+        "caption": "A dial tone lasted for 1.558 seconds, then a car horn honked for 1.212 seconds."
+    },
+    "syn_152": {
+        "event": {
+            "Hum": [
+                1.654
+            ],
+            "Liquid": [
+                0.543
+            ]
+        },
+        "caption": "A hum persisted for 1.654 seconds and then a liquid sound occurred for 0.543 seconds."
+    },
+    "syn_153": {
+        "event": {
+            "Sanding": [
+                2.622
+            ],
+            "Fart": [
+                0.926
+            ]
+        },
+        "caption": "A sanding noise occurred for 2.622 seconds, followed by a fart sound lasting 0.926 seconds."
+    },
+    "syn_154": {
+        "event": {
+            "Ship": [
+                3.409
+            ],
+            "Biting": [
+                0.889
+            ]
+        },
+        "caption": "A ship's horn blew for 3.409 seconds, then there was the sound of biting for 0.889 seconds."
+    },
+    "syn_155": {
+        "event": {
+            "Lawn mower": [
+                8.329
+            ]
+        },
+        "caption": "A lawn mower was heard running for 8.329 seconds."
+    },
+    "syn_156": {
+        "event": {
+            "Steam whistle": [
+                2.866
+            ]
+        },
+        "caption": "A steam whistle sounded for 2.866 seconds."
+    },
+    "syn_157": {
+        "event": {
+            "Whistle": [
+                1.221
+            ],
+            "Breathing": [
+                0.655
+            ]
+        },
+        "caption": "A whistle occurred for 1.221 seconds, then someone breathed for 0.655 seconds."
+    },
+    "syn_158": {
+        "event": {
+            "Sewing machine": [
+                8.737
+            ]
+        },
+        "caption": "A sewing machine operated continuously for 8.737 seconds."
+    },
+    "syn_159": {
+        "event": {
+            "Ding": [
+                0.291
+            ],
+            "Bird vocalization, bird call, bird song": [
+                0.661
+            ],
+            "Fart": [
+                0.926
+            ]
+        },
+        "caption": "A bell dinged for 0.291 seconds, a bird called for 0.661 seconds, followed by a fart lasting 0.926 seconds."
+    },
+    "syn_16": {
+        "event": {
+            "Doorbell": [
+                0.982
+            ],
+            "Cough": [
+                0.33
+            ],
+            "Cat": [
+                0.433
+            ]
+        },
+        "caption": "A doorbell rang for 0.982 seconds, a cough occurred for 0.33 seconds, and a cat meowed for 0.433 seconds."
+    },
+    "syn_160": {
+        "event": {
+            "Fireworks": [
+                1.286
+            ],
+            "Emergency vehicle": [
+                4.573
+            ]
+        },
+        "caption": "Fireworks burst for 1.286 seconds, then an emergency vehicle siren wailed for 4.573 seconds."
+    },
+    "syn_161": {
+        "event": {
+            "Clock": [
+                3.654
+            ]
+        },
+        "caption": "A clock ticked for 3.654 seconds."
+    },
+    "syn_162": {
+        "event": {
+            "Dog": [
+                0.795
+            ],
+            "Fire alarm": [
+                2.044
+            ]
+        },
+        "caption": "A dog barked for 0.795 seconds, then a fire alarm sounded for 2.044 seconds."
+    },
+    "syn_163": {
+        "event": {
+            "Electric shaver, electric razor": [
+                4.102
+            ]
+        },
+        "caption": "An electric shaver or razor buzzed continuously for 4.102 seconds."
+    },
+    "syn_164": {
+        "event": {
+            "Train horn": [
+                1.071
+            ],
+            "Chirp, tweet": [
+                0.451
+            ],
+            "Whistle": [
+                2.047
+            ]
+        },
+        "caption": "A train horn sounded for 1.071 seconds, followed by a chirp and tweet for 0.451 seconds, and a whistle for 2.047 seconds."
+    },
+    "syn_165": {
+        "event": {
+            "Bleat": [
+                0.992
+            ],
+            "Engine knocking": [
+                4.122
+            ]
+        },
+        "caption": "A bleat was heard for nearly 1 second, followed by the sound of an engine knocking for over 4 seconds."
+    },
+    "syn_166": {
+        "event": {
+            "Toilet flush": [
+                2.842
+            ],
+            "Mosquito": [
+                2.108
+            ]
+        },
+        "caption": "A toilet flushed for 2.842 seconds, then a mosquito buzzed for 2.108 seconds."
+    },
+    "syn_167": {
+        "event": {
+            "Sanding": [
+                5.23
+            ],
+            "Slap, smack": [
+                0.402
+            ]
+        },
+        "caption": "A sanding noise occurred for 5.23 seconds, then a slap, smack sound followed, lasting 0.402 seconds."
+    },
+    "syn_168": {
+        "event": {
+            "Ship": [
+                3.409
+            ]
+        },
+        "caption": "A ship horn blared for 3.409 seconds."
+    },
+    "syn_169": {
+        "event": {
+            "Siren": [
+                6.929
+            ]
+        },
+        "caption": "A siren wailed for 6.929 seconds."
+    },
+    "syn_17": {
+        "event": {
+            "Throat clearing": [
+                1.083
+            ],
+            "Hiccup": [
+                0.319
+            ]
+        },
+        "caption": "A person cleared their throat for 1.083 seconds, then hiccuped for 0.319 seconds."
+    },
+    "syn_170": {
+        "event": {
+            "Giggle": [
+                0.654
+            ],
+            "Slap, smack": [
+                0.381
+            ],
+            "Cap gun": [
+                0.393
+            ]
+        },
+        "caption": "A giggle lasted 0.654 seconds, a slap or smack for 0.381 seconds, and a cap gun sound for 0.393 seconds."
+    },
+    "syn_171": {
+        "event": {
+            "Bell": [
+                4.625
+            ]
+        },
+        "caption": "A bell rang for 4.625 seconds."
+    },
+    "syn_172": {
+        "event": {
+            "Burping, eructation": [
+                1.701
+            ],
+            "Growling": [
+                2.472
+            ]
+        },
+        "caption": "A person burped for 1.701 seconds, then a growling sound followed for 2.472 seconds."
+    },
+    "syn_173": {
+        "event": {
+            "Whistle": [
+                1.134
+            ],
+            "Laughter": [
+                1.142
+            ]
+        },
+        "caption": "A whistle sounded for 1.134 seconds, followed by laughter lasting 1.142 seconds."
+    },
+    "syn_174": {
+        "event": {
+            "Hum": [
+                1.654
+            ],
+            "Computer keyboard": [
+                1.124
+            ]
+        },
+        "caption": "A hum persisted for 1.654 seconds, then the sound of a computer keyboard followed, lasting 1.124 seconds."
+    },
+    "syn_175": {
+        "event": {
+            "Mosquito": [
+                2.008
+            ],
+            "Medium engine (mid frequency)": [
+                4.972
+            ]
+        },
+        "caption": "A mosquito buzzed for 2.008 seconds, then a medium engine ran for 4.972 seconds."
+    },
+    "syn_176": {
+        "event": {
+            "Jackhammer": [
+                4.315
+            ]
+        },
+        "caption": "A jackhammer operated for 4.315 seconds."
+    },
+    "syn_177": {
+        "event": {
+            "Beep, bleep": [
+                0.41
+            ],
+            "Shout": [
+                0.631
+            ]
+        },
+        "caption": "A beep bleep sound occurred for 0.41 seconds, followed by a shout lasting 0.631 seconds."
+    },
+    "syn_178": {
+        "event": {
+            "Crunch": [
+                1.624
+            ]
+        },
+        "caption": "A crunching sound occurs for 1.624 seconds."
+    },
+    "syn_179": {
+        "event": {
+            "Rain on surface": [
+                8.615
+            ]
+        },
+        "caption": "Rain fell upon a surface continuously for 8.615 seconds."
+    },
+    "syn_18": {
+        "event": {
+            "Car passing by": [
+                5.514
+            ]
+        },
+        "caption": "A car passed by for 5.514 seconds."
+    },
+    "syn_180": {
+        "event": {
+            "Groan": [
+                1.21
+            ],
+            "Sewing machine": [
+                2.157
+            ]
+        },
+        "caption": "A person groaned for 1.21 seconds, then a sewing machine ran for 2.157 seconds."
+    },
+    "syn_181": {
+        "event": {
+            "Gurgling, bubbling": [
+                0.504
+            ],
+            "Rustle": [
+                0.906
+            ],
+            "Drill": [
+                0.439
+            ]
+        },
+        "caption": "Gurgling and bubbling occurred for 0.504 seconds, followed by rustling for 0.906 seconds, and then drilling for 0.439 seconds."
+    },
+    "syn_182": {
+        "event": {
+            "Mosquito": [
+                2.008
+            ],
+            "Doorbell": [
+                0.982
+            ]
+        },
+        "caption": "A mosquito buzzed for 2.008 seconds, then a doorbell rang for 0.982 seconds."
+    },
+    "syn_183": {
+        "event": {
+            "Burping, eructation": [
+                0.653
+            ],
+            "Laughter": [
+                0.644
+            ]
+        },
+        "caption": "A person burped for 0.653 seconds, then laughter ensued for 0.644 seconds."
+    },
+    "syn_184": {
+        "event": {
+            "Foghorn": [
+                3.71
+            ]
+        },
+        "caption": "A foghorn sounded for 3.71 seconds."
+    },
+    "syn_185": {
+        "event": {
+            "Squeak": [
+                0.464
+            ],
+            "Hammer": [
+                0.25
+            ],
+            "Bark": [
+                0.69
+            ]
+        },
+        "caption": "A squeak occurred for 0.464 seconds, followed by a hammering noise for 0.25 seconds, and then a bark for 0.69 seconds."
+    },
+    "syn_186": {
+        "event": {
+            "Whistle": [
+                0.488
+            ],
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A whistle sounded for 0.488 seconds, then paper rustled for 2.924 seconds."
+    },
+    "syn_187": {
+        "event": {
+            "Dental drill, dentist's drill": [
+                4.88
+            ]
+        },
+        "caption": "A dental drill ran continuously for 4.88 seconds."
+    },
+    "syn_188": {
+        "event": {
+            "Telephone": [
+                3.502
+            ]
+        },
+        "caption": "A telephone rang for 3.5 seconds."
+    },
+    "syn_189": {
+        "event": {
+            "Music": [
+                7.807
+            ]
+        },
+        "caption": "Music played for 7.807 seconds."
+    },
+    "syn_19": {
+        "event": {
+            "Bark": [
+                0.331
+            ],
+            "Bird vocalization, bird call, bird song": [
+                2.113
+            ]
+        },
+        "caption": "A dog barked for 0.331 seconds, followed by bird calls lasting 2.113 seconds."
+    },
+    "syn_190": {
+        "event": {
+            "Belly laugh": [
+                1.976
+            ],
+            "Doorbell": [
+                0.982
+            ],
+            "Dial tone": [
+                0.259
+            ]
+        },
+        "caption": "A person belly laughed for 1.976 seconds, a doorbell rang for 0.982 seconds, and a dial tone followed for 0.259 seconds."
+    },
+    "syn_191": {
+        "event": {
+            "Slam": [
+                0.549
+            ],
+            "Croak": [
+                0.654
+            ]
+        },
+        "caption": "A door slammed for 0.549 seconds, then a frog croaked for 0.654 seconds."
+    },
+    "syn_192": {
+        "event": {
+            "Medium engine (mid frequency)": [
+                8.589
+            ]
+        },
+        "caption": "A medium engine with mid frequency ran for 8.589 seconds."
+    },
+    "syn_193": {
+        "event": {
+            "Slap, smack": [
+                0.402
+            ],
+            "Breathing": [
+                0.606
+            ]
+        },
+        "caption": "A slap or smack sound occurred for 0.402 seconds, followed by the sound of breathing for 0.606 seconds."
+    },
+    "syn_194": {
+        "event": {
+            "Crying, sobbing": [
+                5.369
+            ]
+        },
+        "caption": "Someone cried and sobbed for a duration of 5.369 seconds."
+    },
+    "syn_195": {
+        "event": {
+            "Tearing": [
+                1.881
+            ],
+            "Sound effect": [
+                1.694
+            ]
+        },
+        "caption": "A tearing noise occurred for 1.881 seconds, followed by a sound effect that lasted for 1.694 seconds."
+    },
+    "syn_196": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Train whistle": [
+                2.873
+            ]
+        },
+        "caption": "A hiss lasted for 2 seconds, followed by a train whistle for 2.873 seconds."
+    },
+    "syn_197": {
+        "event": {
+            "Crunch": [
+                1.683
+            ],
+            "Waves, surf": [
+                3.319
+            ]
+        },
+        "caption": "A crunch occurred for 1.683 seconds, then the sound of waves and surf followed for 3.319 seconds."
+    },
+    "syn_198": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Ambulance (siren)": [
+                2.615
+            ]
+        },
+        "caption": "A growling occurred for 2.472 seconds, then an ambulance siren was heard for 2.615 seconds."
+    },
+    "syn_199": {
+        "event": {
+            "Biting": [
+                0.889
+            ],
+            "Throat clearing": [
+                1.083
+            ]
+        },
+        "caption": "A bite was taken with a duration of 0.889 seconds, followed by the sound of throat clearing for 1.083 seconds."
+    },
+    "syn_2": {
+        "event": {
+            "Aircraft": [
+                7.907
+            ]
+        },
+        "caption": "An aircraft was heard for 7.907 seconds."
+    },
+    "syn_20": {
+        "event": {
+            "Civil defense siren": [
+                8.05
+            ]
+        },
+        "caption": "A civil defense siren wailed continuously for 8.05 seconds."
+    },
+    "syn_200": {
+        "event": {
+            "Train whistle": [
+                3.672
+            ],
+            "Doorbell": [
+                0.982
+            ]
+        },
+        "caption": "A train whistle sounded for 3.672 seconds, then a doorbell rang for 0.982 seconds."
+    },
+    "syn_201": {
+        "event": {
+            "Door": [
+                0.284
+            ],
+            "Shout": [
+                0.66
+            ],
+            "Accelerating, revving, vroom": [
+                2.141
+            ]
+        },
+        "caption": "A door opened for 0.284 seconds, a shout lasted for 0.66 seconds, and an accelerating revving sound occurred for 2.141 seconds."
+    },
+    "syn_202": {
+        "event": {
+            "Breaking": [
+                1.422
+            ],
+            "Glass shatter": [
+                1.229
+            ]
+        },
+        "caption": "Something broke for 1.422 seconds, then glass shattered for 1.229 seconds."
+    },
+    "syn_203": {
+        "event": {
+            "Throat clearing": [
+                1.083
+            ],
+            "Bathtub (filling or washing)": [
+                5.477
+            ]
+        },
+        "caption": "A person cleared their throat for 1.083 seconds, then the sound of a bathtub filling or washing followed for 5.477 seconds."
+    },
+    "syn_204": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ],
+            "Hammer": [
+                0.25
+            ]
+        },
+        "caption": "A car accelerated with a revving sound for 4.283 seconds, followed by the sound of a hammer for 0.25 seconds."
+    },
+    "syn_205": {
+        "event": {
+            "Medium engine (mid frequency)": [
+                7.837
+            ]
+        },
+        "caption": "A medium engine with a mid frequency ran for 7.837 seconds."
+    },
+    "syn_206": {
+        "event": {
+            "Bird vocalization, bird call, bird song": [
+                0.294
+            ],
+            "Shout": [
+                0.631
+            ]
+        },
+        "caption": "A bird vocalized briefly for 0.294 seconds, then a shout was heard for 0.631 seconds."
+    },
+    "syn_207": {
+        "event": {
+            "Dishes, pots, and pans": [
+                0.499
+            ],
+            "Squeak": [
+                0.418
+            ],
+            "Sound effect": [
+                1.694
+            ]
+        },
+        "caption": "Dishes, pots, and pans clanked for 0.499 seconds, a squeak occurred for 0.418 seconds, followed by a sound effect for 1.694 seconds."
+    },
+    "syn_208": {
+        "event": {
+            "Buzzer": [
+                1.412
+            ],
+            "Computer keyboard": [
+                0.778
+            ],
+            "Rustle": [
+                0.906
+            ]
+        },
+        "caption": "A buzzer buzzed for 1.412 seconds, a computer keyboard clicked for 0.778 seconds, and rustling lasted for 0.906 seconds."
+    },
+    "syn_209": {
+        "event": {
+            "Machine gun": [
+                1.186
+            ],
+            "Ambulance (siren)": [
+                3.554
+            ]
+        },
+        "caption": "A machine gun fired for 1.186 seconds, then an ambulance siren wailed for 3.554 seconds."
+    },
+    "syn_21": {
+        "event": {
+            "Drill": [
+                2.669
+            ],
+            "Fireworks": [
+                2.117
+            ]
+        },
+        "caption": "A drill operated for 2.669 seconds, then fireworks erupted for 2.117 seconds."
+    },
+    "syn_210": {
+        "event": {
+            "Biting": [
+                0.889
+            ],
+            "Plop": [
+                0.405
+            ],
+            "Thunder": [
+                2.36
+            ]
+        },
+        "caption": "Someone bit something for 0.889 seconds, then a plop sound occurred for 0.405 seconds, followed by thunder lasting 2.36 seconds."
+    },
+    "syn_211": {
+        "event": {
+            "Vehicle horn, car horn, honking, toot": [
+                1.705
+            ],
+            "Fireworks": [
+                1.286
+            ]
+        },
+        "caption": "A vehicle horn sounded for 1.705 seconds, then fireworks were heard for 1.286 seconds."
+    },
+    "syn_212": {
+        "event": {
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ],
+            "Screaming": [
+                0.45
+            ]
+        },
+        "caption": "A rooster crowed for 1.842 seconds, then there was screaming for 0.45 seconds."
+    },
+    "syn_213": {
+        "event": {
+            "Aircraft engine": [
+                8.784
+            ]
+        },
+        "caption": "An aircraft engine roared continuously for 8.784 seconds."
+    },
+    "syn_214": {
+        "event": {
+            "Cricket": [
+                0.215
+            ],
+            "Steam whistle": [
+                3.761
+            ]
+        },
+        "caption": "A cricket chirped for 0.215 seconds, then a steam whistle blew for 3.761 seconds."
+    },
+    "syn_215": {
+        "event": {
+            "Helicopter": [
+                8.61
+            ]
+        },
+        "caption": "A helicopter was heard for 8.61 seconds."
+    },
+    "syn_216": {
+        "event": {
+            "Ambulance (siren)": [
+                7.304
+            ]
+        },
+        "caption": "An ambulance siren wailed continuously for 7.304 seconds."
+    },
+    "syn_217": {
+        "event": {
+            "Train whistle": [
+                1.134
+            ],
+            "Fireworks": [
+                1.286
+            ]
+        },
+        "caption": "A train whistle blew for 1.134 seconds, then fireworks exploded for 1.286 seconds."
+    },
+    "syn_218": {
+        "event": {
+            "Silence": [
+                0.795
+            ],
+            "Dishes, pots, and pans": [
+                0.499
+            ]
+        },
+        "caption": "There was silence for 0.795 seconds, then the sound of dishes, pots, and pans for 0.499 seconds."
+    },
+    "syn_219": {
+        "event": {
+            "Train horn": [
+                1.071
+            ],
+            "Shout": [
+                2.015
+            ]
+        },
+        "caption": "A train horn blared for 1.071 seconds, followed by a shout lasting 2.015 seconds."
+    },
+    "syn_22": {
+        "event": {
+            "Speech": [
+                1.268
+            ],
+            "Clock": [
+                3.623
+            ]
+        },
+        "caption": "Someone spoke for 1.268 seconds, then there was the sound of a clock ticking for 3.623 seconds."
+    },
+    "syn_220": {
+        "event": {
+            "Female singing": [
+                3.205
+            ],
+            "Gurgling, bubbling": [
+                0.504
+            ],
+            "Slam": [
+                0.549
+            ]
+        },
+        "caption": "A woman sang for 3.205 seconds, followed by 0.504 seconds of gurgling and bubbling, and then a slam lasting 0.549 seconds."
+    },
+    "syn_221": {
+        "event": {
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A person rustled paper for 2.924 seconds."
+    },
+    "syn_222": {
+        "event": {
+            "Tick-tock": [
+                0.448
+            ],
+            "Helicopter": [
+                5.239
+            ]
+        },
+        "caption": "A clock ticked for 0.448 seconds and then a helicopter was heard for 5.239 seconds."
+    },
+    "syn_223": {
+        "event": {
+            "Bird": [
+                2.953
+            ],
+            "Whistling": [
+                1.481
+            ]
+        },
+        "caption": "A bird chirped for 2.953 seconds and there was a whistle lasting 1.481 seconds."
+    },
+    "syn_224": {
+        "event": {
+            "Baby cry, infant cry": [
+                0.824
+            ],
+            "Keys jangling": [
+                2.575
+            ]
+        },
+        "caption": "A baby cried for 0.824 seconds, then keys jangled for 2.575 seconds."
+    },
+    "syn_225": {
+        "event": {
+            "Clock": [
+                3.654
+            ],
+            "Whimper (dog)": [
+                0.638
+            ]
+        },
+        "caption": "A clock ticked for 3.654 seconds and then a dog whimpered briefly for 0.638 seconds."
+    },
+    "syn_226": {
+        "event": {
+            "Mosquito": [
+                1.409
+            ],
+            "Siren": [
+                3.2
+            ]
+        },
+        "caption": "A mosquito buzzed for 1.409 seconds, then a siren wailed for 3.2 seconds."
+    },
+    "syn_227": {
+        "event": {
+            "Keys jangling": [
+                2.575
+            ],
+            "Oink": [
+                0.299
+            ]
+        },
+        "caption": "Keys jangled for 2.575 seconds, followed by an oink lasting 0.299 seconds."
+    },
+    "syn_228": {
+        "event": {
+            "Bathtub (filling or washing)": [
+                3.252
+            ],
+            "Police car (siren)": [
+                2.288
+            ]
+        },
+        "caption": "A bathtub was filled or washed for 3.252 seconds, followed by a police car siren for 2.288 seconds."
+    },
+    "syn_229": {
+        "event": {
+            "Ship": [
+                3.409
+            ],
+            "Laughter": [
+                0.644
+            ]
+        },
+        "caption": "A ship horn sounded for 3.409 seconds, then laughter followed for 0.644 seconds."
+    },
+    "syn_23": {
+        "event": {
+            "Dental drill, dentist's drill": [
+                4.88
+            ]
+        },
+        "caption": "A dental drill was heard for 4.88 seconds."
+    },
+    "syn_230": {
+        "event": {
+            "Aircraft": [
+                8.213
+            ]
+        },
+        "caption": "An aircraft was heard for 8.213 seconds."
+    },
+    "syn_231": {
+        "event": {
+            "Electric shaver, electric razor": [
+                4.102
+            ],
+            "Door": [
+                0.284
+            ]
+        },
+        "caption": "An electric shaver or razor buzzed for 4.102 seconds, and a door creaked for 0.284 seconds."
+    },
+    "syn_232": {
+        "event": {
+            "Glass shatter": [
+                0.714
+            ],
+            "Shout": [
+                0.66
+            ]
+        },
+        "caption": "A glass shattered for 0.714 seconds, then a shout occurred lasting 0.66 seconds."
+    },
+    "syn_233": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ]
+        },
+        "caption": "A car engine accelerated, revved, and produced a vroom sound for 4.283 seconds."
+    },
+    "syn_234": {
+        "event": {
+            "Sawing": [
+                1.323
+            ],
+            "Train horn": [
+                1.071
+            ]
+        },
+        "caption": "A sawing sound occurred for 1.323 seconds, followed by a train horn lasting 1.071 seconds."
+    },
+    "syn_235": {
+        "event": {
+            "Water": [
+                2.414
+            ],
+            "Cap gun": [
+                0.393
+            ],
+            "Door": [
+                0.362
+            ]
+        },
+        "caption": "Water flowed for 2.414 seconds, a cap gun fired for 0.393 seconds, and a door moved for 0.362 seconds."
+    },
+    "syn_236": {
+        "event": {
+            "Dog": [
+                0.795
+            ],
+            "Fart": [
+                1.559
+            ]
+        },
+        "caption": "A dog barked for 0.795 seconds, followed by a fart that lasted 1.559 seconds."
+    },
+    "syn_237": {
+        "event": {
+            "Emergency vehicle": [
+                6.964
+            ]
+        },
+        "caption": "An emergency vehicle siren wailed for 6.964 seconds."
+    },
+    "syn_238": {
+        "event": {
+            "Slap, smack": [
+                0.214
+            ],
+            "Foghorn": [
+                3.71
+            ]
+        },
+        "caption": "A slap or smack occurred for 0.214 seconds, followed by a foghorn sounding for 3.71 seconds."
+    },
+    "syn_239": {
+        "event": {
+            "Snoring": [
+                1.248
+            ],
+            "Dial tone": [
+                1.15
+            ],
+            "Oink": [
+                1.341
+            ]
+        },
+        "caption": "A person snored for 1.248 seconds, a dial tone lasted for 1.15 seconds, and an oink sounded for 1.341 seconds."
+    },
+    "syn_24": {
+        "event": {
+            "Meow": [
+                0.795
+            ],
+            "Whip": [
+                0.464
+            ],
+            "Typewriter": [
+                2.654
+            ]
+        },
+        "caption": "A cat meowed for 0.795 seconds, a whip cracked for 0.464 seconds, followed by typewriter keys clacking for 2.654 seconds."
+    },
+    "syn_240": {
+        "event": {
+            "Jet engine": [
+                7.685
+            ]
+        },
+        "caption": "A jet engine roared continuously for 7.685 seconds."
+    },
+    "syn_241": {
+        "event": {
+            "Alarm": [
+                0.607
+            ],
+            "Spray": [
+                2.322
+            ]
+        },
+        "caption": "An alarm sounded for 0.607 seconds, then there was the sound of spraying for 2.322 seconds."
+    },
+    "syn_242": {
+        "event": {
+            "Ambulance (siren)": [
+                7.352
+            ]
+        },
+        "caption": "An ambulance siren wailed for 7.352 seconds."
+    },
+    "syn_243": {
+        "event": {
+            "Liquid": [
+                2.85
+            ],
+            "Explosion": [
+                1.614
+            ]
+        },
+        "caption": "Liquid poured for 2.85 seconds, then an explosion occurred lasting 1.614 seconds."
+    },
+    "syn_244": {
+        "event": {
+            "Yip": [
+                1.268
+            ],
+            "Sawing": [
+                1.323
+            ],
+            "Mosquito": [
+                2.279
+            ]
+        },
+        "caption": "A yip occurred for 1.268 seconds, then sawing for 1.323 seconds, followed by a mosquito buzzing for 2.279 seconds."
+    },
+    "syn_245": {
+        "event": {
+            "Neigh, whinny": [
+                1.71
+            ],
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A horse neighed for 1.71 seconds, then paper rustled for 2.924 seconds."
+    },
+    "syn_246": {
+        "event": {
+            "Ambulance (siren)": [
+                7.407
+            ]
+        },
+        "caption": "An ambulance siren wailed continuously for 7.407 seconds."
+    },
+    "syn_247": {
+        "event": {
+            "Insect": [
+                7.999
+            ]
+        },
+        "caption": "An insect buzzed continuously for approximately 8 seconds."
+    },
+    "syn_248": {
+        "event": {
+            "Buzzer": [
+                0.766
+            ],
+            "Sneeze": [
+                0.914
+            ]
+        },
+        "caption": "A buzzer sounded for 0.766 seconds, then a sneeze occurred lasting 0.914 seconds."
+    },
+    "syn_249": {
+        "event": {
+            "Civil defense siren": [
+                8.008
+            ]
+        },
+        "caption": "A civil defense siren sounded for 8.008 seconds."
+    },
+    "syn_25": {
+        "event": {
+            "Telephone dialing, DTMF": [
+                0.23
+            ],
+            "Dog": [
+                0.795
+            ],
+            "Fireworks": [
+                1.286
+            ]
+        },
+        "caption": "A telephone was dialed for 0.23 seconds, a dog barked for 0.795 seconds, and fireworks exploded for 1.286 seconds."
+    },
+    "syn_250": {
+        "event": {
+            "Air horn, truck horn": [
+                1.702
+            ],
+            "Police car (siren)": [
+                2.209
+            ]
+        },
+        "caption": "An air horn from a truck blared for 1.7 seconds, then a police car siren wailed for 2.2 seconds."
+    },
+    "syn_251": {
+        "event": {
+            "Machine gun": [
+                1.186
+            ],
+            "Fire engine, fire truck (siren)": [
+                4.671
+            ]
+        },
+        "caption": "A machine gun fired for 1.186 seconds, then a fire engine siren blared for 4.671 seconds."
+    },
+    "syn_252": {
+        "event": {
+            "Engine knocking": [
+                8.911
+            ]
+        },
+        "caption": "An engine knocked continuously for 8.911 seconds."
+    },
+    "syn_253": {
+        "event": {
+            "Vehicle horn, car horn, honking, toot": [
+                1.212
+            ]
+        },
+        "caption": "A vehicle horn honked for 1.212 seconds."
+    },
+    "syn_254": {
+        "event": {
+            "Aircraft": [
+                8.156
+            ]
+        },
+        "caption": "An aircraft was heard flying for 8.156 seconds."
+    },
+    "syn_255": {
+        "event": {
+            "Jet engine": [
+                8.674
+            ]
+        },
+        "caption": "A jet engine roared continuously for 8.674 seconds."
+    },
+    "syn_256": {
+        "event": {
+            "Crying, sobbing": [
+                5.369
+            ],
+            "Tick": [
+                0.236
+            ]
+        },
+        "caption": "A person cried and sobbed for 5.369 seconds, followed by a ticking sound for 0.236 seconds."
+    },
+    "syn_257": {
+        "event": {
+            "Car passing by": [
+                5.514
+            ]
+        },
+        "caption": "A car passed by for 5.514 seconds."
+    },
+    "syn_258": {
+        "event": {
+            "Cowbell": [
+                4.307
+            ],
+            "Burping, eructation": [
+                1.827
+            ]
+        },
+        "caption": "A cowbell rang for 4.307 seconds after someone burped for 1.827 seconds."
+    },
+    "syn_259": {
+        "event": {
+            "Toilet flush": [
+                3.429
+            ]
+        },
+        "caption": "A toilet was flushed for 3.429 seconds."
+    },
+    "syn_26": {
+        "event": {
+            "Medium engine (mid frequency)": [
+                7.591
+            ]
+        },
+        "caption": "A medium engine with a mid-frequency tone ran for 7.591 seconds."
+    },
+    "syn_260": {
+        "event": {
+            "Paper rustling": [
+                2.924
+            ],
+            "Alarm": [
+                0.249
+            ]
+        },
+        "caption": "Paper rustled for 2.924 seconds, then an alarm sounded for 0.249 seconds."
+    },
+    "syn_261": {
+        "event": {
+            "Spray": [
+                2.322
+            ],
+            "Cat": [
+                0.898
+            ]
+        },
+        "caption": "A spray occurred for 2.322 seconds, followed by a cat's sound lasting 0.898 seconds."
+    },
+    "syn_262": {
+        "event": {
+            "Filing (rasp)": [
+                2.44
+            ],
+            "Growling": [
+                2.472
+            ]
+        },
+        "caption": "A filing rasp occurred for 2.44 seconds, followed by a growling sound for 2.472 seconds."
+    },
+    "syn_263": {
+        "event": {
+            "Squeak": [
+                0.851
+            ],
+            "Air horn, truck horn": [
+                0.741
+            ],
+            "Bird vocalization, bird call, bird song": [
+                1.087
+            ]
+        },
+        "caption": "A squeak lasted for 0.851 seconds, then an air horn blared for 0.741 seconds, followed by bird calls for 1.087 seconds."
+    },
+    "syn_264": {
+        "event": {
+            "Ship": [
+                3.409
+            ],
+            "Grunt": [
+                2.024
+            ]
+        },
+        "caption": "A ship's sound occurred for 3.409 seconds and was followed by a grunt lasting 2.024 seconds."
+    },
+    "syn_265": {
+        "event": {
+            "Howl": [
+                2.425
+            ],
+            "Keys jangling": [
+                2.575
+            ]
+        },
+        "caption": "A howl sounded for 2.425 seconds, then keys jangled for 2.575 seconds."
+    },
+    "syn_266": {
+        "event": {
+            "Crunch": [
+                1.683
+            ],
+            "Emergency vehicle": [
+                3.679
+            ]
+        },
+        "caption": "A crunching sound occurred for 1.683 seconds, followed by an emergency vehicle siren lasting 3.679 seconds."
+    },
+    "syn_267": {
+        "event": {
+            "Jet engine": [
+                7.775
+            ]
+        },
+        "caption": "A jet engine roared for 7.775 seconds."
+    },
+    "syn_268": {
+        "event": {
+            "Medium engine (mid frequency)": [
+                7.196
+            ]
+        },
+        "caption": "A medium engine with a mid-frequency ran continuously for 7.196 seconds."
+    },
+    "syn_269": {
+        "event": {
+            "Fire alarm": [
+                5.199
+            ]
+        },
+        "caption": "A fire alarm sounded continuously for 5.2 seconds."
+    },
+    "syn_27": {
+        "event": {
+            "Squeak": [
+                0.573
+            ],
+            "Waterfall": [
+                4.095
+            ]
+        },
+        "caption": "A squeak occurred for 0.573 seconds, followed by the sound of a waterfall for 4.095 seconds."
+    },
+    "syn_270": {
+        "event": {
+            "Bird vocalization, bird call, bird song": [
+                0.613
+            ],
+            "Spray": [
+                0.288
+            ]
+        },
+        "caption": "A bird vocalized for 0.613 seconds, then there was a spray sound for 0.288 seconds."
+    },
+    "syn_271": {
+        "event": {
+            "Meow": [
+                0.701
+            ],
+            "Snoring": [
+                1.075
+            ]
+        },
+        "caption": "A cat meowed for 0.701 seconds, then there was the sound of snoring for 1.075 seconds."
+    },
+    "syn_272": {
+        "event": {
+            "Crying, sobbing": [
+                2.834
+            ]
+        },
+        "caption": "A person was crying and sobbing for 2.834 seconds."
+    },
+    "syn_273": {
+        "event": {
+            "Electric shaver, electric razor": [
+                4.102
+            ],
+            "Gurgling, bubbling": [
+                0.504
+            ]
+        },
+        "caption": "An electric shaver buzzed for 4.102 seconds, then a gurgling, bubbling sound occurred for 0.504 seconds."
+    },
+    "syn_274": {
+        "event": {
+            "Whistling": [
+                1.732
+            ],
+            "Sawing": [
+                1.323
+            ]
+        },
+        "caption": "A person whistled for 1.732 seconds, then the sound of sawing occurred for 1.323 seconds."
+    },
+    "syn_275": {
+        "event": {
+            "Whistling": [
+                2.842
+            ],
+            "Chuckle, chortle": [
+                2.142
+            ]
+        },
+        "caption": "A person whistled for 2.842 seconds, then chuckled and chortled for 2.142 seconds."
+    },
+    "syn_276": {
+        "event": {
+            "Door": [
+                0.378
+            ],
+            "Waterfall": [
+                5.409
+            ]
+        },
+        "caption": "A door opened for 0.378 seconds, then the sound of a waterfall persisted for 5.409 seconds."
+    },
+    "syn_277": {
+        "event": {
+            "Gurgling, bubbling": [
+                0.504
+            ],
+            "Telephone": [
+                3.376
+            ]
+        },
+        "caption": "A gurgling, bubbling sound occurred for 0.504 seconds, followed by a telephone ringing for 3.376 seconds."
+    },
+    "syn_278": {
+        "event": {
+            "Ambulance (siren)": [
+                8.206
+            ]
+        },
+        "caption": "An ambulance siren wailed continuously for 8.206 seconds."
+    },
+    "syn_279": {
+        "event": {
+            "Knock": [
+                0.858
+            ],
+            "Breathing": [
+                0.399
+            ],
+            "Cap gun": [
+                0.315
+            ]
+        },
+        "caption": "Someone knocked for 0.858 seconds, inhaled briefly for 0.399 seconds, then a cap gun fired for 0.315 seconds."
+    },
+    "syn_28": {
+        "event": {
+            "Sanding": [
+                1.811
+            ],
+            "Beep, bleep": [
+                0.782
+            ]
+        },
+        "caption": "Sanding occurred for 1.811 seconds, followed by a beep, bleep sound for 0.782 seconds."
+    },
+    "syn_280": {
+        "event": {
+            "Cat": [
+                0.898
+            ],
+            "Alarm": [
+                0.221
+            ],
+            "Jet engine": [
+                2.303
+            ]
+        },
+        "caption": "A cat meowed for 0.898 seconds, an alarm sounded for 0.221 seconds, and a jet engine roared for 2.303 seconds."
+    },
+    "syn_281": {
+        "event": {
+            "Gunshot, gunfire": [
+                2.055
+            ],
+            "Aircraft": [
+                2.035
+            ]
+        },
+        "caption": "A gunshot was heard for 2.055 seconds, then aircraft noise followed for 2.035 seconds."
+    },
+    "syn_282": {
+        "event": {
+            "Knock": [
+                0.9
+            ],
+            "Grunt": [
+                1.976
+            ]
+        },
+        "caption": "Someone knocked for 0.9 seconds, then there was a grunt lasting 1.976 seconds."
+    },
+    "syn_283": {
+        "event": {
+            "Hammer": [
+                0.25
+            ],
+            "Ship": [
+                3.409
+            ]
+        },
+        "caption": "A hammer struck for 0.25 seconds, then a ship was heard for 3.409 seconds."
+    },
+    "syn_284": {
+        "event": {
+            "Police car (siren)": [
+                4.181
+            ]
+        },
+        "caption": "A police car siren wailed for 4.181 seconds."
+    },
+    "syn_285": {
+        "event": {
+            "Sneeze": [
+                0.835
+            ],
+            "Giggle": [
+                0.531
+            ],
+            "Engine": [
+                2.183
+            ]
+        },
+        "caption": "A person sneezed for 0.835 seconds, giggled for 0.531 seconds, and an engine ran for 2.183 seconds."
+    },
+    "syn_286": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Drill": [
+                2.996
+            ]
+        },
+        "caption": "A growling noise lasted for 2.472 seconds, then a drill was heard for 2.996 seconds."
+    },
+    "syn_287": {
+        "event": {
+            "Toilet flush": [
+                3.429
+            ]
+        },
+        "caption": "A toilet was flushed, lasting for 3.429 seconds."
+    },
+    "syn_288": {
+        "event": {
+            "Sanding": [
+                0.448
+            ],
+            "Toilet flush": [
+                5.698
+            ]
+        },
+        "caption": "Sanding occurred for 0.448 seconds, followed by a toilet flushing for 5.698 seconds."
+    },
+    "syn_289": {
+        "event": {
+            "Helicopter": [
+                7.789
+            ]
+        },
+        "caption": "A helicopter was heard for 7.789 seconds."
+    },
+    "syn_29": {
+        "event": {
+            "Speech": [
+                3.59
+            ],
+            "Static": [
+                1.312
+            ]
+        },
+        "caption": "A person spoke for 3.59 seconds, followed by a burst of static lasting 1.312 seconds."
+    },
+    "syn_290": {
+        "event": {
+            "Insect": [
+                8.555
+            ]
+        },
+        "caption": "An insect buzzed continuously for 8.555 seconds."
+    },
+    "syn_291": {
+        "event": {
+            "Insect": [
+                7.608
+            ]
+        },
+        "caption": "An insect buzzed continuously for 7.608 seconds."
+    },
+    "syn_292": {
+        "event": {
+            "Snoring": [
+                1.248
+            ],
+            "Accelerating, revving, vroom": [
+                2.869
+            ]
+        },
+        "caption": "A person snored for 1.248 seconds, then a vehicle accelerated and revved for 2.869 seconds."
+    },
+    "syn_293": {
+        "event": {
+            "Snoring": [
+                1.992
+            ],
+            "Air horn, truck horn": [
+                2.347
+            ]
+        },
+        "caption": "Someone snored for 1.992 seconds, then a truck horn blared for 2.347 seconds."
+    },
+    "syn_294": {
+        "event": {
+            "Buzzer": [
+                0.766
+            ],
+            "Jet engine": [
+                2.678
+            ]
+        },
+        "caption": "A buzzer sounded for 0.766 seconds, then a jet engine roared for 2.678 seconds."
+    },
+    "syn_295": {
+        "event": {
+            "Knock": [
+                0.677
+            ],
+            "Jet engine": [
+                5.741
+            ]
+        },
+        "caption": "A knock occurred for 0.677 seconds, then a jet engine was heard for 5.741 seconds."
+    },
+    "syn_296": {
+        "event": {
+            "Knock": [
+                0.715
+            ],
+            "Insect": [
+                4.166
+            ]
+        },
+        "caption": "Someone knocked for 0.715 seconds, then an insect was heard for 4.166 seconds."
+    },
+    "syn_297": {
+        "event": {
+            "Keys jangling": [
+                2.575
+            ],
+            "Hum": [
+                1.654
+            ],
+            "Knock": [
+                0.9
+            ]
+        },
+        "caption": "Keys jangled for 2.575 seconds, a hum lasted 1.654 seconds, and there was a knock of 0.9 seconds."
+    },
+    "syn_298": {
+        "event": {
+            "Silence": [
+                0.966
+            ],
+            "Buzz": [
+                1.031
+            ]
+        },
+        "caption": "There was silence for 0.966 seconds, followed by a buzz lasting 1.031 seconds."
+    },
+    "syn_299": {
+        "event": {
+            "Door": [
+                0.284
+            ],
+            "Slam": [
+                1.12
+            ]
+        },
+        "caption": "A door opened for 0.284 seconds, followed by the sound of it slamming shut for 1.12 seconds."
+    },
+    "syn_3": {
+        "event": {
+            "Fireworks": [
+                0.731
+            ],
+            "Waterfall": [
+                4.633
+            ]
+        },
+        "caption": "Fireworks burst for 0.731 seconds, succeeded by the continuous roar of a waterfall for 4.633 seconds."
+    },
+    "syn_30": {
+        "event": {
+            "Bathtub (filling or washing)": [
+                3.252
+            ],
+            "Medium engine (mid frequency)": [
+                2.076
+            ]
+        },
+        "caption": "A bathtub filled or was being washed for 3.252 seconds, and a medium engine ran for 2.076 seconds."
+    },
+    "syn_300": {
+        "event": {
+            "Air horn, truck horn": [
+                0.543
+            ],
+            "Gurgling, bubbling": [
+                3.192
+            ]
+        },
+        "caption": "An air horn blared for 0.543 seconds, then a gurgling, bubbling sound followed for 3.192 seconds."
+    },
+    "syn_301": {
+        "event": {
+            "Sanding": [
+                1.094
+            ],
+            "Giggle": [
+                0.968
+            ]
+        },
+        "caption": "Someone giggled for 0.968 seconds, then the sound of sanding continued for 1.094 seconds."
+    },
+    "syn_302": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Cap gun": [
+                0.393
+            ]
+        },
+        "caption": "A hiss occurred for 2 seconds, then a cap gun was fired for 0.393 seconds."
+    },
+    "syn_303": {
+        "event": {
+            "Thump, thud": [
+                0.441
+            ],
+            "Whip": [
+                0.693
+            ],
+            "Bark": [
+                0.393
+            ]
+        },
+        "caption": "A thump and thud lasted for 0.441 seconds, then a whip cracked for 0.693 seconds, followed by a bark lasting 0.393 seconds."
+    },
+    "syn_304": {
+        "event": {
+            "Tire squeal, skidding": [
+                4.559
+            ],
+            "Air horn, truck horn": [
+                0.693
+            ]
+        },
+        "caption": "A tire squealed and skidded for 4.6 seconds, followed by a truck horn blowing for 0.7 seconds."
+    },
+    "syn_305": {
+        "event": {
+            "Silence": [
+                0.795
+            ],
+            "Child singing": [
+                1.827
+            ]
+        },
+        "caption": "A child sang for 1.827 seconds after a period of silence lasting 0.795 seconds."
+    },
+    "syn_306": {
+        "event": {
+            "Police car (siren)": [
+                8.913
+            ]
+        },
+        "caption": "A police car's siren wailed for 8.913 seconds."
+    },
+    "syn_307": {
+        "event": {
+            "Emergency vehicle": [
+                8.496
+            ]
+        },
+        "caption": "An emergency vehicle siren was heard for 8.496 seconds."
+    },
+    "syn_308": {
+        "event": {
+            "Dishes, pots, and pans": [
+                0.499
+            ],
+            "Ambulance (siren)": [
+                3.47
+            ]
+        },
+        "caption": "Dishes clattered for about half a second, followed by an ambulance siren for 3.47 seconds."
+    },
+    "syn_309": {
+        "event": {
+            "Fireworks": [
+                2.117
+            ],
+            "Rustle": [
+                0.906
+            ]
+        },
+        "caption": "Fireworks erupted for 2.117 seconds and a rustling noise followed for 0.906 seconds."
+    },
+    "syn_31": {
+        "event": {
+            "Busy signal": [
+                0.961
+            ],
+            "Civil defense siren": [
+                4.961
+            ]
+        },
+        "caption": "A busy signal beeped for 0.961 seconds, then a civil defense siren wailed for 4.961 seconds."
+    },
+    "syn_310": {
+        "event": {
+            "Spray": [
+                2.322
+            ],
+            "Aircraft engine": [
+                3.114
+            ]
+        },
+        "caption": "A spray occurred for 2.322 seconds, then an aircraft engine ran for 3.114 seconds."
+    },
+    "syn_311": {
+        "event": {
+            "Throat clearing": [
+                1.083
+            ],
+            "Foghorn": [
+                3.71
+            ]
+        },
+        "caption": "A person cleared their throat for 1.083 seconds, then a foghorn blared for 3.71 seconds."
+    },
+    "syn_312": {
+        "event": {
+            "Ship": [
+                3.409
+            ],
+            "Buzzer": [
+                0.766
+            ]
+        },
+        "caption": "A ship's horn sounded for 3.409 seconds, followed by a buzzer for 0.766 seconds."
+    },
+    "syn_313": {
+        "event": {
+            "Bird vocalization, bird call, bird song": [
+                0.614
+            ],
+            "Groan": [
+                1.21
+            ]
+        },
+        "caption": "A bird vocalized for 0.614 seconds, then a groan followed, lasting 1.21 seconds."
+    },
+    "syn_314": {
+        "event": {
+            "Chirp, tweet": [
+                1.929
+            ],
+            "Whistle": [
+                1.181
+            ],
+            "Knock": [
+                0.715
+            ]
+        },
+        "caption": "A chirp and tweet lasted 1.929 seconds, a whistle went for 1.181 seconds, and a knock occurred for 0.715 seconds."
+    },
+    "syn_315": {
+        "event": {
+            "Filing (rasp)": [
+                7.511
+            ]
+        },
+        "caption": "A filing rasp sound occurred for 7.511 seconds."
+    },
+    "syn_316": {
+        "event": {
+            "Thump, thud": [
+                0.874
+            ],
+            "Burping, eructation": [
+                3.181
+            ]
+        },
+        "caption": "A thump and thud occurred for 0.874 seconds, followed by a burping sound lasting 3.181 seconds."
+    },
+    "syn_317": {
+        "event": {
+            "Burping, eructation": [
+                1.827
+            ],
+            "Throat clearing": [
+                1.083
+            ],
+            "Sound effect": [
+                1.694
+            ]
+        },
+        "caption": "A person burped for 1.827 seconds, cleared their throat for 1.083 seconds, and then a sound effect played for 1.694 seconds."
+    },
+    "syn_318": {
+        "event": {
+            "Screaming": [
+                2.078
+            ],
+            "Mosquito": [
+                0.866
+            ]
+        },
+        "caption": "A person screamed for 2.078 seconds, then a mosquito buzzed for 0.866 seconds."
+    },
+    "syn_319": {
+        "event": {
+            "Giggle": [
+                0.531
+            ],
+            "Groan": [
+                1.218
+            ]
+        },
+        "caption": "A giggle is heard for 0.531 seconds, then a groan for 1.218 seconds."
+    },
+    "syn_32": {
+        "event": {
+            "Bathtub (filling or washing)": [
+                3.252
+            ],
+            "Engine knocking": [
+                3.653
+            ]
+        },
+        "caption": "A bathtub filled or washed for 3.252 seconds, followed by an engine knocking for 3.653 seconds."
+    },
+    "syn_320": {
+        "event": {
+            "Rustle": [
+                0.906
+            ],
+            "Static": [
+                0.748
+            ]
+        },
+        "caption": "A rustling sound occurred for 0.906 seconds, followed by static noise lasting 0.748 seconds."
+    },
+    "syn_321": {
+        "event": {
+            "Cowbell": [
+                4.307
+            ]
+        },
+        "caption": "A cowbell sounded for 4.307 seconds."
+    },
+    "syn_322": {
+        "event": {
+            "Train horn": [
+                1.071
+            ],
+            "Sewing machine": [
+                4.015
+            ]
+        },
+        "caption": "A train horn sounded for 1.071 seconds, followed by a sewing machine running for 4.015 seconds."
+    },
+    "syn_323": {
+        "event": {
+            "Bird": [
+                2.953
+            ]
+        },
+        "caption": "A bird chirped for 2.953 seconds."
+    },
+    "syn_324": {
+        "event": {
+            "Ship": [
+                3.409
+            ]
+        },
+        "caption": "A ship horn blared for 3.409 seconds."
+    },
+    "syn_325": {
+        "event": {
+            "Bird vocalization, bird call, bird song": [
+                5.526
+            ]
+        },
+        "caption": "A bird vocalized with calls and songs for a duration of 5.526 seconds."
+    },
+    "syn_326": {
+        "event": {
+            "Police car (siren)": [
+                8.893
+            ]
+        },
+        "caption": "A police car siren sounded for 8.893 seconds."
+    },
+    "syn_327": {
+        "event": {
+            "Busy signal": [
+                0.801
+            ],
+            "Waterfall": [
+                4.574
+            ]
+        },
+        "caption": "A busy signal occurred for 0.801 seconds, followed by the sound of a waterfall for 4.574 seconds."
+    },
+    "syn_328": {
+        "event": {
+            "Child singing": [
+                1.827
+            ],
+            "Throat clearing": [
+                1.083
+            ]
+        },
+        "caption": "A child sang for 1.827 seconds, then someone cleared their throat for 1.083 seconds."
+    },
+    "syn_329": {
+        "event": {
+            "Dog": [
+                0.795
+            ],
+            "Telephone": [
+                1.276
+            ],
+            "Bleat": [
+                2.063
+            ]
+        },
+        "caption": "A dog barked for 0.795 seconds, a telephone rang for 1.276 seconds, and there was a bleat for 2.063 seconds."
+    },
+    "syn_33": {
+        "event": {
+            "Bell": [
+                4.276
+            ],
+            "Telephone dialing, DTMF": [
+                0.212
+            ]
+        },
+        "caption": "A bell rang for 4.276 seconds, then a telephone was dialed using DTMF tones for 0.212 seconds."
+    },
+    "syn_330": {
+        "event": {
+            "Telephone bell ringing": [
+                7.725
+            ]
+        },
+        "caption": "A telephone bell rang for 7.725 seconds."
+    },
+    "syn_331": {
+        "event": {
+            "Sanding": [
+                2.567
+            ]
+        },
+        "caption": "A sanding event occurred for 2.567 seconds."
+    },
+    "syn_332": {
+        "event": {
+            "Ding": [
+                0.291
+            ],
+            "Vacuum cleaner": [
+                4.348
+            ]
+        },
+        "caption": "A bell dinged for 0.291 seconds, then a vacuum cleaner ran for 4.348 seconds."
+    },
+    "syn_333": {
+        "event": {
+            "Music": [
+                8.749
+            ]
+        },
+        "caption": "Music played for 8.749 seconds."
+    },
+    "syn_334": {
+        "event": {
+            "Static": [
+                0.722
+            ],
+            "Speech": [
+                3.59
+            ]
+        },
+        "caption": "A burst of static lasted for 0.722 seconds, then a person spoke for 3.59 seconds."
+    },
+    "syn_335": {
+        "event": {
+            "Glass shatter": [
+                1.229
+            ],
+            "Whimper (dog)": [
+                0.905
+            ]
+        },
+        "caption": "A glass shattered for 1.229 seconds, then a dog whimpered for 0.905 seconds."
+    },
+    "syn_336": {
+        "event": {
+            "Tick-tock": [
+                0.427
+            ],
+            "Rustle": [
+                0.906
+            ],
+            "Car passing by": [
+                3.286
+            ]
+        },
+        "caption": "A clock tick-tocked for 0.427 seconds, followed by rustling for 0.906 seconds, and a car passed by for 3.286 seconds."
+    },
+    "syn_337": {
+        "event": {
+            "Electric shaver, electric razor": [
+                4.102
+            ],
+            "Sanding": [
+                0.448
+            ]
+        },
+        "caption": "An electric shaver buzzed for 4.102 seconds, then there was the sound of sanding for 0.448 seconds."
+    },
+    "syn_338": {
+        "event": {
+            "Music": [
+                7.434
+            ]
+        },
+        "caption": "Music played for 7.434 seconds."
+    },
+    "syn_339": {
+        "event": {
+            "Throat clearing": [
+                1.083
+            ],
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A person cleared their throat for 1.083 seconds, then paper rustled for 2.924 seconds."
+    },
+    "syn_34": {
+        "event": {
+            "Aircraft": [
+                8.765
+            ]
+        },
+        "caption": "An aircraft was heard flying for 8.765 seconds."
+    },
+    "syn_340": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Helicopter": [
+                4.184
+            ]
+        },
+        "caption": "A growling sound lasted for 2.472 seconds, followed by the noise of a helicopter for 4.184 seconds."
+    },
+    "syn_341": {
+        "event": {
+            "Tick": [
+                0.3
+            ],
+            "Screaming": [
+                1.383
+            ]
+        },
+        "caption": "A ticking sound occurred for 0.3 seconds, followed by screaming lasting for 1.383 seconds."
+    },
+    "syn_342": {
+        "event": {
+            "Buzz": [
+                1.126
+            ],
+            "Doorbell": [
+                0.982
+            ]
+        },
+        "caption": "A buzz occurred for 1.126 seconds, followed by a doorbell ring lasting 0.982 seconds."
+    },
+    "syn_343": {
+        "event": {
+            "Beep, bleep": [
+                0.229
+            ],
+            "Rain on surface": [
+                6.659
+            ]
+        },
+        "caption": "A beep sounded for 0.229 seconds, then there was the sound of rain on a surface for 6.659 seconds."
+    },
+    "syn_344": {
+        "event": {
+            "Sound effect": [
+                1.694
+            ],
+            "Toilet flush": [
+                4.426
+            ]
+        },
+        "caption": "A sound effect occurred for 1.694 seconds before a toilet flush that lasted for 4.426 seconds."
+    },
+    "syn_345": {
+        "event": {
+            "Cough": [
+                0.354
+            ],
+            "Buzz": [
+                1.126
+            ]
+        },
+        "caption": "A person coughed for 0.354 seconds, then there was a buzzing sound for 1.126 seconds."
+    },
+    "syn_346": {
+        "event": {
+            "Baby cry, infant cry": [
+                7.379
+            ]
+        },
+        "caption": "A baby or infant cried for 7.379 seconds."
+    },
+    "syn_347": {
+        "event": {
+            "Whistle": [
+                2.047
+            ],
+            "Dishes, pots, and pans": [
+                0.499
+            ]
+        },
+        "caption": "A whistle sounded for 2.047 seconds, then dishes, pots, and pans clattered for 0.499 seconds."
+    },
+    "syn_348": {
+        "event": {
+            "Air horn, truck horn": [
+                0.323
+            ],
+            "Ding": [
+                0.591
+            ]
+        },
+        "caption": "An air horn from a truck sounded for 0.323 seconds, then a ding followed, lasting 0.591 seconds."
+    },
+    "syn_349": {
+        "event": {
+            "Liquid": [
+                1.803
+            ],
+            "Burping, eructation": [
+                2.417
+            ]
+        },
+        "caption": "Liquid poured for 1.803 seconds, then a burp followed lasting 2.417 seconds."
+    },
+    "syn_35": {
+        "event": {
+            "Cough": [
+                0.353
+            ],
+            "Machine gun": [
+                1.186
+            ]
+        },
+        "caption": "A person coughed for 0.353 seconds, then a machine gun fired for 1.186 seconds."
+    },
+    "syn_350": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ],
+            "Silence": [
+                0.764
+            ]
+        },
+        "caption": "An engine accelerated with a revving vroom for 4.283 seconds, followed by silence for 0.764 seconds."
+    },
+    "syn_351": {
+        "event": {
+            "Hum": [
+                1.654
+            ],
+            "Busy signal": [
+                0.977
+            ]
+        },
+        "caption": "A hum occurred for 1.654 seconds, then a busy signal followed for 0.977 seconds."
+    },
+    "syn_352": {
+        "event": {
+            "Oink": [
+                1.341
+            ],
+            "Whoosh, swoosh, swish": [
+                1.441
+            ]
+        },
+        "caption": "A pig oinked for 1.341 seconds, then there was a whooshing, swooshing, swishing sound for 1.441 seconds."
+    },
+    "syn_353": {
+        "event": {
+            "Doorbell": [
+                0.982
+            ],
+            "Crumpling, crinkling": [
+                1.891
+            ]
+        },
+        "caption": "A doorbell rang for 0.982 seconds, followed by the sound of crumpling for 1.891 seconds."
+    },
+    "syn_354": {
+        "event": {
+            "Fire engine, fire truck (siren)": [
+                7.979
+            ]
+        },
+        "caption": "A fire engine or fire truck siren sounded for 7.979 seconds."
+    },
+    "syn_355": {
+        "event": {
+            "Grunt": [
+                1.976
+            ],
+            "Slap, smack": [
+                0.381
+            ]
+        },
+        "caption": "A grunt occurred for 1.976 seconds, then a slap or smack followed, lasting 0.381 seconds."
+    },
+    "syn_356": {
+        "event": {
+            "Shout": [
+                0.66
+            ],
+            "Cough": [
+                0.481
+            ]
+        },
+        "caption": "A person shouted for 0.66 seconds, then coughed for 0.481 seconds."
+    },
+    "syn_357": {
+        "event": {
+            "Drill": [
+                9.434
+            ]
+        },
+        "caption": "A drill was heard operating for 9.434 seconds."
+    },
+    "syn_358": {
+        "event": {
+            "Air horn, truck horn": [
+                0.323
+            ],
+            "Thunder": [
+                6.027
+            ]
+        },
+        "caption": "An air horn sounded for 0.323 seconds, then thunder rumbled for 6.027 seconds."
+    },
+    "syn_359": {
+        "event": {
+            "Police car (siren)": [
+                9.251
+            ]
+        },
+        "caption": "A police car siren was heard for 9.251 seconds."
+    },
+    "syn_36": {
+        "event": {
+            "Hiccup": [
+                0.319
+            ],
+            "Sawing": [
+                1.323
+            ]
+        },
+        "caption": "A hiccup occurred for 0.319 seconds, followed by the sound of sawing for 1.323 seconds."
+    },
+    "syn_360": {
+        "event": {
+            "Ding": [
+                0.308
+            ],
+            "Howl": [
+                2.425
+            ]
+        },
+        "caption": "A bell dinged for 0.308 seconds, then a howl followed, lasting 2.425 seconds."
+    },
+    "syn_361": {
+        "event": {
+            "Throat clearing": [
+                1.083
+            ],
+            "Hiss": [
+                2.0
+            ]
+        },
+        "caption": "A throat clearing occurred for 1.083 seconds, followed by a hiss lasting 2 seconds."
+    },
+    "syn_362": {
+        "event": {
+            "Bathtub (filling or washing)": [
+                6.598
+            ]
+        },
+        "caption": "A bathtub was filled or washed for 6.598 seconds."
+    },
+    "syn_363": {
+        "event": {
+            "Slap, smack": [
+                0.402
+            ],
+            "Medium engine (mid frequency)": [
+                4.455
+            ]
+        },
+        "caption": "A slap or smack occurred for 0.402 seconds, followed by a medium-pitched engine running for 4.455 seconds."
+    },
+    "syn_364": {
+        "event": {
+            "Speech": [
+                3.442
+            ],
+            "Telephone": [
+                2.673
+            ]
+        },
+        "caption": "A person spoke for 3.442 seconds, and then a telephone rang for 2.673 seconds."
+    },
+    "syn_365": {
+        "event": {
+            "Cowbell": [
+                4.307
+            ],
+            "Bark": [
+                0.277
+            ]
+        },
+        "caption": "A cowbell rang for 4.307 seconds, then a dog barked briefly for 0.277 seconds."
+    },
+    "syn_366": {
+        "event": {
+            "Emergency vehicle": [
+                7.681
+            ]
+        },
+        "caption": "An emergency vehicle siren sounded for 7.681 seconds."
+    },
+    "syn_367": {
+        "event": {
+            "Gurgling, bubbling": [
+                3.192
+            ],
+            "Bark": [
+                0.462
+            ]
+        },
+        "caption": "Water gurgled and bubbled for 3.192 seconds followed by a bark lasting 0.462 seconds."
+    },
+    "syn_368": {
+        "event": {
+            "Buzz": [
+                1.031
+            ],
+            "Power saw, circular saw, table saw": [
+                4.866
+            ]
+        },
+        "caption": "A buzz occurred for 1.031 seconds, followed by a power saw operating for 4.866 seconds."
+    },
+    "syn_369": {
+        "event": {
+            "Typewriter": [
+                4.189
+            ]
+        },
+        "caption": "A typewriter was used for 4.189 seconds."
+    },
+    "syn_37": {
+        "event": {
+            "Chirp, tweet": [
+                1.937
+            ],
+            "Silence": [
+                0.966
+            ]
+        },
+        "caption": "A chirp and tweet occurred for 1.937 seconds, followed by silence for 0.966 seconds."
+    },
+    "syn_370": {
+        "event": {
+            "Child singing": [
+                2.543
+            ],
+            "Fart": [
+                0.926
+            ]
+        },
+        "caption": "A child sang for 2.543 seconds, then there was a fart sound lasting 0.926 seconds."
+    },
+    "syn_371": {
+        "event": {
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ],
+            "Aircraft engine": [
+                2.804
+            ]
+        },
+        "caption": "A cock crowed for 1.842 seconds, then an aircraft engine sounded for 2.804 seconds."
+    },
+    "syn_372": {
+        "event": {
+            "Oink": [
+                0.307
+            ],
+            "Whoosh, swoosh, swish": [
+                1.112
+            ]
+        },
+        "caption": "A pig oinked for 0.307 seconds, then a whooshing sound occurred for 1.112 seconds."
+    },
+    "syn_373": {
+        "event": {
+            "Female singing": [
+                3.205
+            ],
+            "Slap, smack": [
+                0.43
+            ]
+        },
+        "caption": "A female sang for 3.205 seconds, then a slap or smack occurred, lasting 0.43 seconds."
+    },
+    "syn_374": {
+        "event": {
+            "Quack": [
+                0.226
+            ],
+            "Engine knocking": [
+                6.118
+            ]
+        },
+        "caption": "A duck quacked for 0.226 seconds, then an engine knocked for 6.118 seconds."
+    },
+    "syn_375": {
+        "event": {
+            "Beep, bleep": [
+                0.205
+            ],
+            "Whimper (dog)": [
+                0.905
+            ]
+        },
+        "caption": "A beep bleeped for 0.205 seconds, then a dog whimpered for 0.905 seconds."
+    },
+    "syn_376": {
+        "event": {
+            "Telephone": [
+                3.376
+            ],
+            "Grunt": [
+                0.567
+            ]
+        },
+        "caption": "A telephone rang for 3.376 seconds, then there was a grunt lasting 0.567 seconds."
+    },
+    "syn_377": {
+        "event": {
+            "Clock": [
+                3.654
+            ],
+            "Grunt": [
+                1.976
+            ]
+        },
+        "caption": "A clock ticked for 3.654 seconds and then someone grunted for 1.976 seconds."
+    },
+    "syn_378": {
+        "event": {
+            "Fire engine, fire truck (siren)": [
+                9.085
+            ]
+        },
+        "caption": "A fire engine or truck siren wailed continuously for 9.085 seconds."
+    },
+    "syn_379": {
+        "event": {
+            "Busy signal": [
+                3.035
+            ]
+        },
+        "caption": "A busy signal occurred for 3.035 seconds."
+    },
+    "syn_38": {
+        "event": {
+            "Aircraft": [
+                7.868
+            ]
+        },
+        "caption": "An aircraft was heard flying for 7.868 seconds."
+    },
+    "syn_380": {
+        "event": {
+            "Lawn mower": [
+                8.703
+            ]
+        },
+        "caption": "A lawn mower operated continuously for 8.703 seconds."
+    },
+    "syn_381": {
+        "event": {
+            "Sewing machine": [
+                7.966
+            ]
+        },
+        "caption": "A sewing machine ran continuously for almost 8 seconds."
+    },
+    "syn_382": {
+        "event": {
+            "Baby cry, infant cry": [
+                1.115
+            ],
+            "Oink": [
+                0.244
+            ]
+        },
+        "caption": "A baby cried for 1.115 seconds, then a sound of an oink lasted 0.244 seconds."
+    },
+    "syn_383": {
+        "event": {
+            "Sneeze": [
+                0.914
+            ],
+            "Mosquito": [
+                3.747
+            ]
+        },
+        "caption": "A person sneezed for 0.914 seconds, then a mosquito buzzed for 3.747 seconds."
+    },
+    "syn_384": {
+        "event": {
+            "Siren": [
+                2.722
+            ],
+            "Crumpling, crinkling": [
+                0.958
+            ]
+        },
+        "caption": "A siren wailed for 2.722 seconds, followed by the sound of crumpling or crinkling for 0.958 seconds."
+    },
+    "syn_385": {
+        "event": {
+            "Chuckle, chortle": [
+                3.104
+            ],
+            "Laughter": [
+                1.622
+            ]
+        },
+        "caption": "A chuckle or chortle lasted 3.104 seconds, followed by laughter for 1.622 seconds."
+    },
+    "syn_386": {
+        "event": {
+            "Grunt": [
+                0.567
+            ],
+            "Yip": [
+                1.268
+            ]
+        },
+        "caption": "A grunt occurred for 0.567 seconds, followed by a yip lasting 1.268 seconds."
+    },
+    "syn_387": {
+        "event": {
+            "Gunshot, gunfire": [
+                1.315
+            ],
+            "Child singing": [
+                1.771
+            ]
+        },
+        "caption": "A gunshot rang out for 1.315 seconds, and then a child sang for 1.771 seconds."
+    },
+    "syn_388": {
+        "event": {
+            "Knock": [
+                0.9
+            ],
+            "Sewing machine": [
+                2.157
+            ]
+        },
+        "caption": "A knock occurred for 0.9 seconds, followed by a sewing machine running for 2.157 seconds."
+    },
+    "syn_389": {
+        "event": {
+            "Waterfall": [
+                8.389
+            ]
+        },
+        "caption": "A waterfall cascaded continuously for 8.389 seconds."
+    },
+    "syn_39": {
+        "event": {
+            "Vacuum cleaner": [
+                8.037
+            ]
+        },
+        "caption": "A vacuum cleaner ran continuously for 8.037 seconds."
+    },
+    "syn_390": {
+        "event": {
+            "Baby laughter": [
+                0.999
+            ],
+            "Throat clearing": [
+                1.083
+            ]
+        },
+        "caption": "A baby laughed for nearly 1 second, then someone cleared their throat for approximately 1.08 seconds."
+    },
+    "syn_391": {
+        "event": {
+            "Door": [
+                0.378
+            ],
+            "Gunshot, gunfire": [
+                1.548
+            ],
+            "Bird vocalization, bird call, bird song": [
+                0.953
+            ]
+        },
+        "caption": "A door opened for 0.378 seconds, followed by a gunshot lasting 1.548 seconds, and a bird call that took 0.953 seconds."
+    },
+    "syn_392": {
+        "event": {
+            "Filing (rasp)": [
+                7.172
+            ]
+        },
+        "caption": "A filing rasp sound occurred for 7.172 seconds."
+    },
+    "syn_393": {
+        "event": {
+            "Bell": [
+                7.393
+            ]
+        },
+        "caption": "A bell rang for 7.393 seconds."
+    },
+    "syn_394": {
+        "event": {
+            "Explosion": [
+                1.359
+            ],
+            "Dishes, pots, and pans": [
+                0.499
+            ]
+        },
+        "caption": "An explosion occurred for 1.359 seconds, succeeded by the clatter of dishes, pots, and pans for 0.499 seconds."
+    },
+    "syn_395": {
+        "event": {
+            "Spray": [
+                1.738
+            ],
+            "Jet engine": [
+                2.69
+            ]
+        },
+        "caption": "A spray occurred for 1.738 seconds, followed by a jet engine sound for 2.69 seconds."
+    },
+    "syn_396": {
+        "event": {
+            "Rustle": [
+                0.906
+            ],
+            "Knock": [
+                0.858
+            ]
+        },
+        "caption": "A rustle occurred for 0.906 seconds, followed by a knock lasting 0.858 seconds."
+    },
+    "syn_397": {
+        "event": {
+            "Fart": [
+                0.651
+            ],
+            "Biting": [
+                0.889
+            ]
+        },
+        "caption": "A fart occurred lasting 0.651 seconds, and then there was the sound of biting for 0.889 seconds."
+    },
+    "syn_398": {
+        "event": {
+            "Tick-tock": [
+                0.455
+            ],
+            "Telephone": [
+                1.276
+            ]
+        },
+        "caption": "A tick-tock sound occurred for 0.455 seconds, then a telephone rang for 1.276 seconds."
+    },
+    "syn_399": {
+        "event": {
+            "Speech": [
+                0.795
+            ],
+            "Aircraft": [
+                5.344
+            ]
+        },
+        "caption": "A person spoke for 0.795 seconds, then the sound of an aircraft lasted for 5.344 seconds."
+    },
+    "syn_4": {
+        "event": {
+            "Vacuum cleaner": [
+                6.916
+            ]
+        },
+        "caption": "A vacuum cleaner was running for 6.916 seconds."
+    },
+    "syn_40": {
+        "event": {
+            "Dial tone": [
+                1.558
+            ],
+            "Busy signal": [
+                1.023
+            ]
+        },
+        "caption": "A dial tone lasted for 1.558 seconds, then a busy signal followed for 1.023 seconds."
+    },
+    "syn_400": {
+        "event": {
+            "Water tap, faucet": [
+                4.33
+            ]
+        },
+        "caption": "A water tap or faucet ran for 4.33 seconds."
+    },
+    "syn_401": {
+        "event": {
+            "Fart": [
+                1.559
+            ],
+            "Liquid": [
+                1.74
+            ]
+        },
+        "caption": "A fart occurred for 1.559 seconds, followed by a liquid sound lasting 1.74 seconds."
+    },
+    "syn_402": {
+        "event": {
+            "Chuckle, chortle": [
+                2.142
+            ],
+            "Groan": [
+                1.219
+            ]
+        },
+        "caption": "A person chuckled and chortled for 2.142 seconds, then groaned for 1.219 seconds."
+    },
+    "syn_403": {
+        "event": {
+            "Doorbell": [
+                0.982
+            ],
+            "Grunt": [
+                2.024
+            ]
+        },
+        "caption": "A doorbell rang for 0.982 seconds, then a grunt was heard lasting 2.024 seconds."
+    },
+    "syn_404": {
+        "event": {
+            "Power saw, circular saw, table saw": [
+                7.56
+            ]
+        },
+        "caption": "A power saw, circular saw, or table saw operated for 7.56 seconds."
+    },
+    "syn_405": {
+        "event": {
+            "Sawing": [
+                1.323
+            ],
+            "Paper rustling": [
+                2.924
+            ]
+        },
+        "caption": "A sawing sound occurred for 1.323 seconds, then paper rustling followed for 2.924 seconds."
+    },
+    "syn_406": {
+        "event": {
+            "Busy signal": [
+                1.457
+            ],
+            "Cricket": [
+                0.281
+            ]
+        },
+        "caption": "A busy signal beeped for 1.457 seconds, and then a cricket chirped briefly for 0.281 seconds."
+    },
+    "syn_407": {
+        "event": {
+            "Laughter": [
+                1.354
+            ],
+            "Plop": [
+                0.405
+            ]
+        },
+        "caption": "A person laughed for 1.354 seconds, then a plop sound occurred for 0.405 seconds."
+    },
+    "syn_408": {
+        "event": {
+            "Crying, sobbing": [
+                2.316
+            ],
+            "Squeak": [
+                0.855
+            ]
+        },
+        "caption": "A person cried and sobbed for 2.316 seconds, then there was a squeak lasting 0.855 seconds."
+    },
+    "syn_409": {
+        "event": {
+            "Water tap, faucet": [
+                4.33
+            ]
+        },
+        "caption": "A water tap or faucet ran continuously for 4.33 seconds."
+    },
+    "syn_41": {
+        "event": {
+            "Meow": [
+                0.701
+            ],
+            "Breaking": [
+                1.41
+            ]
+        },
+        "caption": "A cat meowed for 0.701 seconds, then there was the sound of something breaking for 1.41 seconds."
+    },
+    "syn_410": {
+        "event": {
+            "Breathing": [
+                0.473
+            ],
+            "Snoring": [
+                1.075
+            ]
+        },
+        "caption": "A person breathed for 0.473 seconds and then snored for 1.075 seconds."
+    },
+    "syn_411": {
+        "event": {
+            "Shout": [
+                0.992
+            ],
+            "Whip": [
+                0.446
+            ]
+        },
+        "caption": "A person shouted for just under 1 second, followed by the sound of a whip cracking for almost half a second."
+    },
+    "syn_412": {
+        "event": {
+            "Door": [
+                0.284
+            ],
+            "Quack": [
+                0.287
+            ],
+            "Silence": [
+                0.764
+            ]
+        },
+        "caption": "A door creaked for 0.284 seconds, then a duck quacked for 0.287 seconds, followed by silence for 0.764 seconds."
+    },
+    "syn_413": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Sound effect": [
+                1.694
+            ]
+        },
+        "caption": "A growling occurred for 2.472 seconds, then a sound effect lasted for 1.694 seconds."
+    },
+    "syn_414": {
+        "event": {
+            "Gunshot, gunfire": [
+                1.118
+            ],
+            "Clang": [
+                0.707
+            ]
+        },
+        "caption": "A gunshot occurred for 1.118 seconds, then a clang followed for 0.707 seconds."
+    },
+    "syn_415": {
+        "event": {
+            "Alarm": [
+                1.071
+            ],
+            "Waterfall": [
+                3.169
+            ]
+        },
+        "caption": "An alarm sounded for 1.071 seconds, then a waterfall was heard for 3.169 seconds."
+    },
+    "syn_416": {
+        "event": {
+            "Slap, smack": [
+                0.43
+            ],
+            "Crying, sobbing": [
+                2.701
+            ]
+        },
+        "caption": "A slap or smack occurred for 0.43 seconds, followed by the sound of crying or sobing lasting 2.701 seconds."
+    },
+    "syn_417": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Waterfall": [
+                3.599
+            ]
+        },
+        "caption": "A growling occurred for 2.472 seconds and was followed by the sound of a waterfall for 3.599 seconds."
+    },
+    "syn_418": {
+        "event": {
+            "Vacuum cleaner": [
+                8.0
+            ]
+        },
+        "caption": "A vacuum cleaner ran continuously for 8 seconds."
+    },
+    "syn_419": {
+        "event": {
+            "Whip": [
+                0.446
+            ],
+            "Sneeze": [
+                0.914
+            ]
+        },
+        "caption": "A whip cracked for 0.446 seconds, followed by a sneeze lasting 0.914 seconds."
+    },
+    "syn_42": {
+        "event": {
+            "Squeak": [
+                0.272
+            ],
+            "Whistling": [
+                2.842
+            ]
+        },
+        "caption": "A squeak occurred for 0.272 seconds, followed by whistling for 2.842 seconds."
+    },
+    "syn_420": {
+        "event": {
+            "Rumble": [
+                7.606
+            ]
+        },
+        "caption": "A rumble occurred, lasting 7.606 seconds."
+    },
+    "syn_421": {
+        "event": {
+            "Female singing": [
+                3.205
+            ],
+            "Whistle": [
+                1.26
+            ]
+        },
+        "caption": "A female sang for 3.205 seconds and a whistle was heard for 1.26 seconds."
+    },
+    "syn_422": {
+        "event": {
+            "Crunch": [
+                1.683
+            ],
+            "Electric shaver, electric razor": [
+                4.102
+            ]
+        },
+        "caption": "A crunching sound lasted for 1.683 seconds, followed by an electric shaver running for 4.102 seconds."
+    },
+    "syn_423": {
+        "event": {
+            "Fire alarm": [
+                5.199
+            ],
+            "Beep, bleep": [
+                0.294
+            ]
+        },
+        "caption": "A fire alarm sounded for 5.2 seconds, then a beep bleep noise occurred for 0.3 seconds."
+    },
+    "syn_424": {
+        "event": {
+            "Mosquito": [
+                0.866
+            ],
+            "Cricket": [
+                0.22
+            ]
+        },
+        "caption": "A mosquito buzzed for 0.866 seconds, then a cricket chirped briefly for 0.22 seconds."
+    },
+    "syn_425": {
+        "event": {
+            "Typewriter": [
+                1.894
+            ]
+        },
+        "caption": "A typewriter was used for 1.894 seconds."
+    },
+    "syn_426": {
+        "event": {
+            "Music": [
+                7.121
+            ]
+        },
+        "caption": "Music played continuously for 7.121 seconds."
+    },
+    "syn_427": {
+        "event": {
+            "Chirp, tweet": [
+                1.866
+            ],
+            "Computer keyboard": [
+                0.252
+            ],
+            "Chuckle, chortle": [
+                2.29
+            ]
+        },
+        "caption": "A chirp and tweet lasted for 1.866 seconds, a computer keyboard clicked for 0.252 seconds, and a chuckle ensued for 2.29 seconds."
+    },
+    "syn_428": {
+        "event": {
+            "Tire squeal, skidding": [
+                4.559
+            ],
+            "Squeak": [
+                1.164
+            ]
+        },
+        "caption": "A tire squealed and skidded for 4.559 seconds, followed by a brief squeak lasting 1.164 seconds."
+    },
+    "syn_429": {
+        "event": {
+            "Fire alarm": [
+                5.199
+            ]
+        },
+        "caption": "A fire alarm sounded for 5.2 seconds."
+    },
+    "syn_43": {
+        "event": {
+            "Filing (rasp)": [
+                2.44
+            ],
+            "Belly laugh": [
+                1.976
+            ]
+        },
+        "caption": "A filing rasp sound occurred for 2.44 seconds, followed by a belly laugh lasting 1.976 seconds."
+    },
+    "syn_430": {
+        "event": {
+            "Hum": [
+                1.654
+            ],
+            "Aircraft engine": [
+                3.793
+            ]
+        },
+        "caption": "A hum occurred for 1.654 seconds, then an aircraft engine was heard for 3.793 seconds."
+    },
+    "syn_431": {
+        "event": {
+            "Buzz": [
+                1.031
+            ],
+            "Cowbell": [
+                3.126
+            ]
+        },
+        "caption": "A buzz occurred for 1.031 seconds, then a cowbell was heard for 3.126 seconds."
+    },
+    "syn_432": {
+        "event": {
+            "Chuckle, chortle": [
+                2.142
+            ],
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ]
+        },
+        "caption": "A person chuckled for 2.142 seconds, then a rooster crowed for 1.842 seconds."
+    },
+    "syn_433": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Laughter": [
+                0.359
+            ]
+        },
+        "caption": "A hiss was heard for 2 seconds, then a burst of laughter for approximately 0.359 seconds."
+    },
+    "syn_434": {
+        "event": {
+            "Howl": [
+                2.425
+            ]
+        },
+        "caption": "A howl occurred, lasting for 2.425 seconds."
+    },
+    "syn_435": {
+        "event": {
+            "Whistle": [
+                1.181
+            ],
+            "Steam whistle": [
+                5.172
+            ]
+        },
+        "caption": "A whistle sounded for 1.181 seconds, then a steam whistle blew for 5.172 seconds."
+    },
+    "syn_436": {
+        "event": {
+            "Jackhammer": [
+                4.315
+            ],
+            "Giggle": [
+                0.654
+            ]
+        },
+        "caption": "A jackhammer pounded for 4.315 seconds, while a giggle briefly broke through for 0.654 seconds."
+    },
+    "syn_437": {
+        "event": {
+            "Oink": [
+                1.341
+            ],
+            "Liquid": [
+                1.119
+            ]
+        },
+        "caption": "A pig oinked for 1.341 seconds, then the sound of liquid followed for 1.119 seconds."
+    },
+    "syn_438": {
+        "event": {
+            "Whistle": [
+                2.047
+            ],
+            "Dental drill, dentist's drill": [
+                3.127
+            ]
+        },
+        "caption": "A whistle sounded for 2.047 seconds, then a dental drill buzzed for 3.127 seconds."
+    },
+    "syn_439": {
+        "event": {
+            "Fart": [
+                1.087
+            ],
+            "Dishes, pots, and pans": [
+                0.308
+            ],
+            "Whistle": [
+                1.26
+            ]
+        },
+        "caption": "Someone farted for 1.087 seconds, dishes clattered for 0.308 seconds, and a whistle blew for 1.26 seconds."
+    },
+    "syn_44": {
+        "event": {
+            "Spray": [
+                0.519
+            ],
+            "Medium engine (mid frequency)": [
+                2.772
+            ]
+        },
+        "caption": "A spray occurred for 0.519 seconds, and then a medium engine sound lasted for 2.772 seconds."
+    },
+    "syn_440": {
+        "event": {
+            "Steam whistle": [
+                8.69
+            ]
+        },
+        "caption": "A steam whistle sounded for 8.69 seconds."
+    },
+    "syn_441": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Thump, thud": [
+                0.686
+            ]
+        },
+        "caption": "A hiss occurred for 2 seconds, then a combined thump and thud sound happened for 0.686 seconds."
+    },
+    "syn_442": {
+        "event": {
+            "Speech": [
+                1.763
+            ],
+            "Static": [
+                0.582
+            ]
+        },
+        "caption": "A person spoke for 1.763 seconds, then there was static noise for 0.582 seconds."
+    },
+    "syn_443": {
+        "event": {
+            "Bleat": [
+                0.992
+            ],
+            "Dental drill, dentist's drill": [
+                4.353
+            ]
+        },
+        "caption": "A goat bleated for just under a second, followed by the sound of a dental drill for over four seconds."
+    },
+    "syn_444": {
+        "event": {
+            "Yip": [
+                1.268
+            ],
+            "Busy signal": [
+                1.023
+            ]
+        },
+        "caption": "A yip occurred for 1.268 seconds, followed by a busy signal lasting 1.023 seconds."
+    },
+    "syn_445": {
+        "event": {
+            "Spray": [
+                1.806
+            ],
+            "Bird": [
+                2.618
+            ]
+        },
+        "caption": "A spray occurred for 1.806 seconds, then a bird chirped for 2.618 seconds."
+    },
+    "syn_446": {
+        "event": {
+            "Whimper (dog)": [
+                0.638
+            ],
+            "Clang": [
+                0.707
+            ]
+        },
+        "caption": "A dog whimpered for 0.638 seconds, then a clang sounded for 0.707 seconds."
+    },
+    "syn_447": {
+        "event": {
+            "Busy signal": [
+                3.035
+            ]
+        },
+        "caption": "A busy signal beeped continuously for 3.035 seconds."
+    },
+    "syn_448": {
+        "event": {
+            "Static": [
+                0.472
+            ],
+            "Toilet flush": [
+                3.291
+            ]
+        },
+        "caption": "A burst of static lasted for 0.472 seconds, then a toilet flushed for 3.291 seconds."
+    },
+    "syn_449": {
+        "event": {
+            "Typewriter": [
+                2.701
+            ],
+            "Siren": [
+                5.204
+            ]
+        },
+        "caption": "A typewriter clicked for 2.701 seconds, then a siren wailed for 5.204 seconds."
+    },
+    "syn_45": {
+        "event": {
+            "Whistle": [
+                0.716
+            ],
+            "Thunder": [
+                4.942
+            ]
+        },
+        "caption": "A whistle sounded for 0.716 seconds, then thunder rumbled for 4.942 seconds."
+    },
+    "syn_450": {
+        "event": {
+            "Laughter": [
+                0.575
+            ],
+            "Tick": [
+                0.196
+            ]
+        },
+        "caption": "Someone laughed for 0.575 seconds, and a ticking sound occurred for 0.196 seconds."
+    },
+    "syn_451": {
+        "event": {
+            "Aircraft": [
+                7.834
+            ]
+        },
+        "caption": "An aircraft was heard for 7.834 seconds."
+    },
+    "syn_452": {
+        "event": {
+            "Vacuum cleaner": [
+                7.534
+            ]
+        },
+        "caption": "A vacuum cleaner ran continuously for 7.534 seconds."
+    },
+    "syn_453": {
+        "event": {
+            "Quack": [
+                0.274
+            ],
+            "Telephone": [
+                3.502
+            ]
+        },
+        "caption": "A duck quacked for 0.274 seconds, then a telephone rang for 3.502 seconds."
+    },
+    "syn_454": {
+        "event": {
+            "Clock": [
+                3.654
+            ],
+            "Biting": [
+                0.889
+            ]
+        },
+        "caption": "A clock ticked for 3.654 seconds and then there was the sound of biting for 0.889 seconds."
+    },
+    "syn_455": {
+        "event": {
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ],
+            "Throat clearing": [
+                1.083
+            ]
+        },
+        "caption": "A cock crowed for 1.842 seconds, then someone cleared their throat for 1.083 seconds."
+    },
+    "syn_456": {
+        "event": {
+            "Steam whistle": [
+                7.629
+            ]
+        },
+        "caption": "A steam whistle blew for 7.629 seconds."
+    },
+    "syn_457": {
+        "event": {
+            "Sneeze": [
+                0.835
+            ],
+            "Rain on surface": [
+                5.266
+            ]
+        },
+        "caption": "A person sneezed for 0.835 seconds, followed by the sound of rain on a surface for 5.266 seconds."
+    },
+    "syn_458": {
+        "event": {
+            "Dishes, pots, and pans": [
+                0.499
+            ],
+            "Chirp, tweet": [
+                0.451
+            ],
+            "Electric shaver, electric razor": [
+                4.102
+            ]
+        },
+        "caption": "Dishes, pots, and pans clattered for 0.499 seconds, a chirp tweeted for 0.451 seconds, and an electric shaver buzzed for 4.102 seconds."
+    },
+    "syn_459": {
+        "event": {
+            "Slam": [
+                0.549
+            ],
+            "Drill": [
+                2.124
+            ]
+        },
+        "caption": "A slam occurred for 0.549 seconds, then a drill was heard for 2.124 seconds."
+    },
+    "syn_46": {
+        "event": {
+            "Jackhammer": [
+                7.378
+            ]
+        },
+        "caption": "A jackhammer was heard operating for a duration of 7.378 seconds."
+    },
+    "syn_460": {
+        "event": {
+            "Liquid": [
+                1.74
+            ],
+            "Music": [
+                2.997
+            ]
+        },
+        "caption": "A liquid poured for 1.74 seconds, then music played for 2.997 seconds."
+    },
+    "syn_461": {
+        "event": {
+            "Toilet flush": [
+                3.429
+            ],
+            "Chirp, tweet": [
+                0.457
+            ]
+        },
+        "caption": "A toilet flushed for 3.429 seconds, then a chirping and tweeting sound occurred for 0.457 seconds."
+    },
+    "syn_462": {
+        "event": {
+            "Waves, surf": [
+                4.433
+            ]
+        },
+        "caption": "The sound of waves surfing is heard for 4.433 seconds."
+    },
+    "syn_463": {
+        "event": {
+            "Silence": [
+                0.764
+            ],
+            "Burping, eructation": [
+                2.417
+            ]
+        },
+        "caption": "There was silence for 0.764 seconds, then a burp lasting 2.417 seconds."
+    },
+    "syn_464": {
+        "event": {
+            "Whoosh, swoosh, swish": [
+                1.099
+            ],
+            "Mosquito": [
+                4.538
+            ]
+        },
+        "caption": "A whooshing sound occurred for 1.099 seconds, followed by a mosquito buzzing for 4.538 seconds."
+    },
+    "syn_465": {
+        "event": {
+            "Shout": [
+                0.66
+            ],
+            "Baby laughter": [
+                0.807
+            ]
+        },
+        "caption": "A shout occurred for 0.66 seconds, then baby laughter followed for 0.807 seconds."
+    },
+    "syn_466": {
+        "event": {
+            "Breathing": [
+                0.228
+            ],
+            "Cowbell": [
+                3.559
+            ]
+        },
+        "caption": "A person breathed briefly for 0.228 seconds, then a cowbell rang for 3.559 seconds."
+    },
+    "syn_467": {
+        "event": {
+            "Cough": [
+                0.512
+            ],
+            "Gurgling, bubbling": [
+                0.504
+            ],
+            "Mosquito": [
+                1.114
+            ]
+        },
+        "caption": "A person coughed for 0.512 seconds, gurgling and bubbling lasted for 0.504 seconds, and a mosquito buzzed for 1.114 seconds."
+    },
+    "syn_468": {
+        "event": {
+            "Chuckle, chortle": [
+                2.142
+            ],
+            "Neigh, whinny": [
+                1.811
+            ]
+        },
+        "caption": "A chuckle or chortle lasted for 2.142 seconds, then a neigh or whinny followed, lasting for 1.811 seconds."
+    },
+    "syn_469": {
+        "event": {
+            "Biting": [
+                0.889
+            ],
+            "Telephone": [
+                3.452
+            ]
+        },
+        "caption": "Someone bit for approximately 0.9 seconds, and a telephone rang for about 3.5 seconds."
+    },
+    "syn_47": {
+        "event": {
+            "Mosquito": [
+                0.866
+            ],
+            "Emergency vehicle": [
+                2.848
+            ]
+        },
+        "caption": "A mosquito buzzed for 0.866 seconds, then an emergency vehicle siren wailed for 2.848 seconds."
+    },
+    "syn_470": {
+        "event": {
+            "Oink": [
+                0.307
+            ],
+            "Hiss": [
+                2.0
+            ]
+        },
+        "caption": "A pig oinked for 0.307 seconds, then there was a hissing sound for 2 seconds."
+    },
+    "syn_471": {
+        "event": {
+            "Drill": [
+                2.669
+            ],
+            "Doorbell": [
+                0.982
+            ]
+        },
+        "caption": "A drill operated for 2.669 seconds, followed by a doorbell ringing for 0.982 seconds."
+    },
+    "syn_472": {
+        "event": {
+            "Bell": [
+                4.276
+            ]
+        },
+        "caption": "A bell rang continuously for 4.276 seconds."
+    },
+    "syn_473": {
+        "event": {
+            "Train whistle": [
+                3.672
+            ],
+            "Rumble": [
+                2.443
+            ]
+        },
+        "caption": "A train whistle sounded for 3.672 seconds, then a rumble followed for 2.443 seconds."
+    },
+    "syn_474": {
+        "event": {
+            "Jet engine": [
+                8.295
+            ]
+        },
+        "caption": "A jet engine was heard for 8.295 seconds."
+    },
+    "syn_475": {
+        "event": {
+            "Slam": [
+                0.549
+            ],
+            "Explosion": [
+                1.359
+            ]
+        },
+        "caption": "A door slammed shut for 0.549 seconds, followed by an explosion lasting 1.359 seconds."
+    },
+    "syn_476": {
+        "event": {
+            "Slam": [
+                1.12
+            ],
+            "Thump, thud": [
+                0.441
+            ]
+        },
+        "caption": "A slam occurred for 1.12 seconds, then a thump and thud followed for 0.441 seconds."
+    },
+    "syn_477": {
+        "event": {
+            "Neigh, whinny": [
+                1.858
+            ],
+            "Static": [
+                3.069
+            ]
+        },
+        "caption": "A horse neighed for 1.858 seconds, then static noise occurred for 3.069 seconds."
+    },
+    "syn_478": {
+        "event": {
+            "Tick-tock": [
+                0.414
+            ],
+            "Thump, thud": [
+                0.441
+            ],
+            "Plop": [
+                0.405
+            ]
+        },
+        "caption": "A clock tick-tocked for 0.414 seconds, followed by a thump and thud lasting 0.441 seconds, then a plop for 0.405 seconds."
+    },
+    "syn_479": {
+        "event": {
+            "Oink": [
+                1.341
+            ],
+            "Belly laugh": [
+                1.976
+            ]
+        },
+        "caption": "A pig oinked for 1.341 seconds, then someone belly laughed for 1.976 seconds."
+    },
+    "syn_48": {
+        "event": {
+            "Ambulance (siren)": [
+                8.065
+            ]
+        },
+        "caption": "An ambulance siren sounded for 8.065 seconds."
+    },
+    "syn_480": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Giggle": [
+                0.968
+            ],
+            "Dishes, pots, and pans": [
+                0.308
+            ]
+        },
+        "caption": "A hiss sounds for 2 seconds, followed by a giggle lasting 0.968 seconds, and the clatter of dishes, pots, and pans for 0.308 seconds."
+    },
+    "syn_481": {
+        "event": {
+            "Crunch": [
+                1.683
+            ],
+            "Lawn mower": [
+                2.949
+            ]
+        },
+        "caption": "A crunching sound occurred for 1.683 seconds, followed by the sound of a lawn mower for 2.949 seconds."
+    },
+    "syn_482": {
+        "event": {
+            "Buzzer": [
+                1.412
+            ],
+            "Quack": [
+                0.274
+            ]
+        },
+        "caption": "A buzzer sounded for 1.412 seconds, followed by a quack lasting 0.274 seconds."
+    },
+    "syn_483": {
+        "event": {
+            "Insect": [
+                8.314
+            ]
+        },
+        "caption": "An insect buzzed continuously for 8.314 seconds."
+    },
+    "syn_484": {
+        "event": {
+            "Fart": [
+                0.622
+            ],
+            "Water": [
+                4.442
+            ]
+        },
+        "caption": "A fart occurred for 0.622 seconds, then the sound of water for 4.442 seconds."
+    },
+    "syn_485": {
+        "event": {
+            "Paper rustling": [
+                2.924
+            ],
+            "Sewing machine": [
+                3.662
+            ]
+        },
+        "caption": "Paper rustled for 2.924 seconds, then a sewing machine ran for 3.662 seconds."
+    },
+    "syn_486": {
+        "event": {
+            "Power tool": [
+                2.709
+            ],
+            "Dog": [
+                0.795
+            ]
+        },
+        "caption": "A power tool ran for 2.709 seconds, then a dog barked for 0.795 seconds."
+    },
+    "syn_487": {
+        "event": {
+            "Bell": [
+                4.416
+            ]
+        },
+        "caption": "A bell rang for 4.416 seconds."
+    },
+    "syn_488": {
+        "event": {
+            "Child singing": [
+                2.213
+            ],
+            "Drill": [
+                3.904
+            ]
+        },
+        "caption": "A child sang for 2.213 seconds, then a drill was heard for 3.904 seconds."
+    },
+    "syn_489": {
+        "event": {
+            "Emergency vehicle": [
+                8.145
+            ]
+        },
+        "caption": "An emergency vehicle's siren wailed continuously for 8.145 seconds."
+    },
+    "syn_49": {
+        "event": {
+            "Telephone": [
+                3.376
+            ],
+            "Train whistle": [
+                0.898
+            ]
+        },
+        "caption": "A telephone rang for 3.376 seconds and then a train whistle blew for 0.898 seconds."
+    },
+    "syn_490": {
+        "event": {
+            "Thump, thud": [
+                0.598
+            ],
+            "Ambulance (siren)": [
+                3.192
+            ]
+        },
+        "caption": "A thump and thud occurred for 0.598 seconds, followed by an ambulance siren lasting 3.192 seconds."
+    },
+    "syn_491": {
+        "event": {
+            "Crunch": [
+                1.683
+            ],
+            "Silence": [
+                0.764
+            ]
+        },
+        "caption": "A crunch occurred for 1.683 seconds, followed by silence lasting 0.764 seconds."
+    },
+    "syn_492": {
+        "event": {
+            "Hammer": [
+                0.25
+            ],
+            "Bark": [
+                0.69
+            ]
+        },
+        "caption": "A hammer struck for 0.25 seconds, then a dog barked for 0.69 seconds."
+    },
+    "syn_493": {
+        "event": {
+            "Hiss": [
+                2.0
+            ],
+            "Whistling": [
+                0.614
+            ]
+        },
+        "caption": "A hissing sound occurred for 2 seconds, then a whistle was heard for 0.614 seconds."
+    },
+    "syn_494": {
+        "event": {
+            "Bell": [
+                4.416
+            ]
+        },
+        "caption": "A bell rang for 4.416 seconds."
+    },
+    "syn_495": {
+        "event": {
+            "Dental drill, dentist's drill": [
+                4.88
+            ]
+        },
+        "caption": "A dental drill operated continuously for 4.88 seconds."
+    },
+    "syn_496": {
+        "event": {
+            "Electric shaver, electric razor": [
+                4.102
+            ]
+        },
+        "caption": "An electric shaver or electric razor buzzed continuously for 4.102 seconds."
+    },
+    "syn_497": {
+        "event": {
+            "Meow": [
+                0.795
+            ],
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ]
+        },
+        "caption": "A cat meowed for 0.795 seconds followed by a rooster crowing for 1.842 seconds."
+    },
+    "syn_498": {
+        "event": {
+            "Biting": [
+                0.889
+            ],
+            "Mosquito": [
+                2.008
+            ]
+        },
+        "caption": "Someone bit into something for 0.889 seconds, then a mosquito buzzed for 2.008 seconds."
+    },
+    "syn_499": {
+        "event": {
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ],
+            "Machine gun": [
+                1.186
+            ]
+        },
+        "caption": "A cock crowed for 1.842 seconds, then a machine gun fired for 1.186 seconds."
+    },
+    "syn_5": {
+        "event": {
+            "Neigh, whinny": [
+                1.811
+            ],
+            "Train whistle": [
+                3.677
+            ]
+        },
+        "caption": "A neigh and whinny occurred for 1.811 seconds, followed by a train whistle lasting 3.677 seconds."
+    },
+    "syn_50": {
+        "event": {
+            "Dial tone": [
+                0.259
+            ],
+            "Rustle": [
+                0.906
+            ],
+            "Ambulance (siren)": [
+                3.1
+            ]
+        },
+        "caption": "A dial tone lingered for 0.259 seconds, fabric rustled for 0.906 seconds, and an ambulance siren wailed for 3.1 seconds."
+    },
+    "syn_500": {
+        "event": {
+            "Gurgling, bubbling": [
+                3.192
+            ],
+            "Paper rustling": [
+                2.342
+            ]
+        },
+        "caption": "A gurgling, bubbling sound persisted for 3.192 seconds, then paper rustling occurred for 2.342 seconds."
+    },
+    "syn_51": {
+        "event": {
+            "Vehicle horn, car horn, honking, toot": [
+                0.636
+            ],
+            "Fire alarm": [
+                5.199
+            ]
+        },
+        "caption": "A vehicle horn honked for 0.636 seconds, followed by a fire alarm sounding for 5.199 seconds."
+    },
+    "syn_52": {
+        "event": {
+            "Air horn, truck horn": [
+                1.702
+            ],
+            "Rain on surface": [
+                4.39
+            ]
+        },
+        "caption": "An air horn or truck horn sounded for 1.702 seconds, followed by rain hitting a surface for 4.39 seconds."
+    },
+    "syn_53": {
+        "event": {
+            "Growling": [
+                2.472
+            ],
+            "Keys jangling": [
+                2.446
+            ]
+        },
+        "caption": "A growling persisted for 2.472 seconds, succeeded by the sound of keys jangling lasting 2.446 seconds."
+    },
+    "syn_54": {
+        "event": {
+            "Engine": [
+                9.028
+            ]
+        },
+        "caption": "An engine ran continuously for 9.028 seconds."
+    },
+    "syn_55": {
+        "event": {
+            "Howl": [
+                2.425
+            ],
+            "Civil defense siren": [
+                4.29
+            ]
+        },
+        "caption": "A howl was heard for 2.425 seconds, followed by a civil defense siren lasting 4.29 seconds."
+    },
+    "syn_56": {
+        "event": {
+            "Whoosh, swoosh, swish": [
+                0.544
+            ],
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ]
+        },
+        "caption": "A whooshing sound occurred for 0.544 seconds, followed by a crowing noise lasting 1.842 seconds."
+    },
+    "syn_57": {
+        "event": {
+            "Sound effect": [
+                1.694
+            ],
+            "Emergency vehicle": [
+                5.439
+            ]
+        },
+        "caption": "A sound effect occurred for 1.694 seconds, then an emergency vehicle was heard for 5.439 seconds."
+    },
+    "syn_58": {
+        "event": {
+            "Water tap, faucet": [
+                4.33
+            ]
+        },
+        "caption": "A water tap or faucet ran for 4.33 seconds."
+    },
+    "syn_59": {
+        "event": {
+            "Meow": [
+                0.795
+            ],
+            "Explosion": [
+                0.811
+            ]
+        },
+        "caption": "A cat meowed for 0.795 seconds, and then there was an explosion lasting 0.811 seconds."
+    },
+    "syn_6": {
+        "event": {
+            "Rumble": [
+                7.606
+            ]
+        },
+        "caption": "A rumble occurred for 7.606 seconds."
+    },
+    "syn_60": {
+        "event": {
+            "Drill": [
+                8.24
+            ]
+        },
+        "caption": "A drill was heard operating for 8.24 seconds."
+    },
+    "syn_61": {
+        "event": {
+            "Shout": [
+                2.015
+            ]
+        },
+        "caption": "A person shouted for 2.015 seconds."
+    },
+    "syn_62": {
+        "event": {
+            "Howl": [
+                2.425
+            ],
+            "Cough": [
+                0.789
+            ],
+            "Thump, thud": [
+                0.559
+            ]
+        },
+        "caption": "A howl occurred for 2.425 seconds, a cough for 0.789 seconds, and a thump, thud for 0.559 seconds."
+    },
+    "syn_63": {
+        "event": {
+            "Toilet flush": [
+                2.842
+            ],
+            "Ding": [
+                0.291
+            ]
+        },
+        "caption": "A toilet flushed for 2.842 seconds, then a ding sounded for 0.291 seconds."
+    },
+    "syn_64": {
+        "event": {
+            "Air horn, truck horn": [
+                2.45
+            ],
+            "Accelerating, revving, vroom": [
+                2.042
+            ]
+        },
+        "caption": "An air horn from a truck blared for 2.45 seconds, then came the sound of accelerating with revving at 2.042 seconds."
+    },
+    "syn_65": {
+        "event": {
+            "Rustle": [
+                0.906
+            ],
+            "Spray": [
+                1.806
+            ],
+            "Sawing": [
+                1.323
+            ]
+        },
+        "caption": "A rustle lasted for 0.906 seconds, then a spray persisted for 1.806 seconds, followed by sawing for 1.323 seconds."
+    },
+    "syn_66": {
+        "event": {
+            "Rustle": [
+                0.906
+            ],
+            "Typewriter": [
+                1.448
+            ]
+        },
+        "caption": "A rustle occurred for 0.906 seconds, then a typewriter was heard for 1.448 seconds."
+    },
+    "syn_67": {
+        "event": {
+            "Spray": [
+                1.738
+            ],
+            "Aircraft": [
+                2.83
+            ]
+        },
+        "caption": "A spray occurred for 1.738 seconds, followed by an aircraft noise lasting 2.83 seconds."
+    },
+    "syn_68": {
+        "event": {
+            "Chainsaw": [
+                8.689
+            ]
+        },
+        "caption": "A chainsaw ran continuously for 8.7 seconds."
+    },
+    "syn_69": {
+        "event": {
+            "Sound effect": [
+                1.694
+            ],
+            "Thump, thud": [
+                0.598
+            ]
+        },
+        "caption": "A sound effect occurred for 1.694 seconds, followed by a thump, thud for 0.598 seconds."
+    },
+    "syn_7": {
+        "event": {
+            "Toilet flush": [
+                5.911
+            ]
+        },
+        "caption": "A toilet was flushed for 5.911 seconds."
+    },
+    "syn_70": {
+        "event": {
+            "Thump, thud": [
+                0.874
+            ],
+            "Sneeze": [
+                0.914
+            ]
+        },
+        "caption": "A thump and thud occurred for 0.874 seconds, followed by a sneeze lasting 0.914 seconds."
+    },
+    "syn_71": {
+        "event": {
+            "Grunt": [
+                1.976
+            ],
+            "Emergency vehicle": [
+                2.083
+            ]
+        },
+        "caption": "A person grunted for 1.976 seconds, then an emergency vehicle was heard for 2.083 seconds."
+    },
+    "syn_72": {
+        "event": {
+            "Music": [
+                8.031
+            ]
+        },
+        "caption": "Music played continuously for 8.031 seconds."
+    },
+    "syn_73": {
+        "event": {
+            "Chainsaw": [
+                7.491
+            ]
+        },
+        "caption": "A chainsaw ran continuously for 7.491 seconds."
+    },
+    "syn_74": {
+        "event": {
+            "Baby laughter": [
+                0.999
+            ],
+            "Medium engine (mid frequency)": [
+                2.743
+            ]
+        },
+        "caption": "A baby laughed for approximately 1 second, followed by the sound of a medium engine humming for about 2.7 seconds."
+    },
+    "syn_75": {
+        "event": {
+            "Accelerating, revving, vroom": [
+                4.283
+            ]
+        },
+        "caption": "An engine accelerated, revved, and made a vroom sound for 4.283 seconds."
+    },
+    "syn_76": {
+        "event": {
+            "Bird vocalization, bird call, bird song": [
+                2.113
+            ]
+        },
+        "caption": "A bird vocalized with calls or songs lasting 2.113 seconds."
+    },
+    "syn_77": {
+        "event": {
+            "Hum": [
+                1.654
+            ],
+            "Whoosh, swoosh, swish": [
+                0.956
+            ],
+            "Groan": [
+                1.219
+            ]
+        },
+        "caption": "A hum occurred for 1.654 seconds, a whooshing sound for 0.956 seconds, and a groan for 1.219 seconds."
+    },
+    "syn_78": {
+        "event": {
+            "Computer keyboard": [
+                0.252
+            ],
+            "Whip": [
+                0.693
+            ]
+        },
+        "caption": "A computer keyboard was tapped for 0.252 seconds, then a whip cracked for 0.693 seconds."
+    },
+    "syn_79": {
+        "event": {
+            "Laughter": [
+                2.03
+            ],
+            "Fart": [
+                0.661
+            ]
+        },
+        "caption": "A person laughed for 2.03 seconds, then there was a fart lasting 0.661 seconds."
+    },
+    "syn_8": {
+        "event": {
+            "Sneeze": [
+                0.914
+            ],
+            "Electric shaver, electric razor": [
+                3.137
+            ]
+        },
+        "caption": "A person sneezed for 0.914 seconds, then the buzz of an electric shaver lasted for 3.137 seconds."
+    },
+    "syn_80": {
+        "event": {
+            "Clock": [
+                3.654
+            ]
+        },
+        "caption": "A clock ticked for 3.654 seconds."
+    },
+    "syn_81": {
+        "event": {
+            "Emergency vehicle": [
+                8.089
+            ]
+        },
+        "caption": "An emergency vehicle siren sounded for 8.089 seconds."
+    },
+    "syn_82": {
+        "event": {
+            "Tick-tock": [
+                0.455
+            ],
+            "Mosquito": [
+                0.866
+            ]
+        },
+        "caption": "A clock tick-tocked for 0.455 seconds, then a mosquito buzzed for 0.866 seconds."
+    },
+    "syn_83": {
+        "event": {
+            "Groan": [
+                1.21
+            ],
+            "Snoring": [
+                1.248
+            ]
+        },
+        "caption": "A person groaned for 1.21 seconds and then snored for 1.248 seconds."
+    },
+    "syn_84": {
+        "event": {
+            "Music": [
+                9.244
+            ]
+        },
+        "caption": "Music played continuously for 9.244 seconds."
+    },
+    "syn_85": {
+        "event": {
+            "Tick-tock": [
+                0.448
+            ],
+            "Typewriter": [
+                3.932
+            ]
+        },
+        "caption": "A clock tick-tocked for 0.448 seconds, and a typewriter clicked for 3.932 seconds."
+    },
+    "syn_86": {
+        "event": {
+            "Bark": [
+                0.95
+            ],
+            "Crowing, cock-a-doodle-doo": [
+                1.842
+            ]
+        },
+        "caption": "A dog barked for 0.95 seconds, then a rooster crowed for 1.842 seconds."
+    },
+    "syn_87": {
+        "event": {
+            "Cat": [
+                1.092
+            ],
+            "Rumble": [
+                3.657
+            ]
+        },
+        "caption": "A cat meowed for 1.092 seconds, followed by a rumble lasting 3.657 seconds."
+    },
+    "syn_88": {
+        "event": {
+            "Hum": [
+                1.654
+            ]
+        },
+        "caption": "A hum occurred, lasting for 1.654 seconds."
+    },
+    "syn_89": {
+        "event": {
+            "Car passing by": [
+                5.514
+            ]
+        },
+        "caption": "A car passed by for 5.514 seconds."
+    },
+    "syn_9": {
+        "event": {
+            "Tearing": [
+                1.866
+            ],
+            "Water": [
+                2.428
+            ]
+        },
+        "caption": "Someone tore something for 1.9 seconds, then the sound of water was heard for 2.4 seconds."
+    },
+    "syn_90": {
+        "event": {
+            "Child singing": [
+                2.213
+            ],
+            "Cough": [
+                0.33
+            ]
+        },
+        "caption": "A child sang for 2.213 seconds, then there was a cough lasting 0.33 seconds."
+    },
+    "syn_91": {
+        "event": {
+            "Croak": [
+                0.654
+            ],
+            "Telephone bell ringing": [
+                5.144
+            ]
+        },
+        "caption": "A croak lasted for 0.654 seconds, then a telephone bell rang continuously for 5.144 seconds."
+    },
+    "syn_92": {
+        "event": {
+            "Police car (siren)": [
+                8.739
+            ]
+        },
+        "caption": "A police car siren wailed continuously for 8.739 seconds."
+    },
+    "syn_93": {
+        "event": {
+            "Engine knocking": [
+                7.447
+            ]
+        },
+        "caption": "An engine knocked continuously for 7.447 seconds."
+    },
+    "syn_94": {
+        "event": {
+            "Power saw, circular saw, table saw": [
+                7.764
+            ]
+        },
+        "caption": "A power saw operated continuously for 7.764 seconds."
+    },
+    "syn_95": {
+        "event": {
+            "Knock": [
+                0.858
+            ],
+            "Tearing": [
+                1.881
+            ]
+        },
+        "caption": "A knock occurred for 0.858 seconds, and then there was the sound of tearing for 1.881 seconds."
+    },
+    "syn_96": {
+        "event": {
+            "Screaming": [
+                0.45
+            ],
+            "Sanding": [
+                1.811
+            ]
+        },
+        "caption": "A person screamed for 0.45 seconds, then the sound of sanding followed for 1.811 seconds."
+    },
+    "syn_97": {
+        "event": {
+            "Fireworks": [
+                1.286
+            ],
+            "Gurgling, bubbling": [
+                3.192
+            ]
+        },
+        "caption": "Fireworks erupted for 1.286 seconds, then gurgling and bubbling persisted for 3.192 seconds."
+    },
+    "syn_98": {
+        "event": {
+            "Slap, smack": [
+                0.43
+            ],
+            "Female singing": [
+                3.205
+            ]
+        },
+        "caption": "A slap or smack occurred lasting 0.43 seconds, followed by a female singing for 3.205 seconds."
+    },
+    "syn_99": {
+        "event": {
+            "Sewing machine": [
+                8.824
+            ]
+        },
+        "caption": "A sewing machine operated continuously for 8.824 seconds."
+    }
+}
