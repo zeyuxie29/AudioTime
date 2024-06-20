@@ -13,12 +13,12 @@ cd STEAMtool
 pip install -e .
 ```
 
-Download the audio-text grounding (ATG) model [checkpoint](https://drive.google.com/file/d/1Zma4npCeTmdvoNc3xRvQrzpHRlJkRWK4/view?usp=sharing),
-and put it in the path *STEAMtool/steam/grounding_tool/grounding_ckpt/*.
+Download the audio-text grounding (ATG) model [checkpoint](https://drive.google.com/file/d/11DVSYY0aRS1W7hUVmHaBObihi3BENxoq/view?usp=sharing),
+and put it in the path */STEAMtool/steam/grounding_tool/grounding_ckpt/*.
 
 ## Evaluation
 ```python
   python steam/runner/steam_eval.py -p {generated_path} -t {task_name}
 ```
-Where {generated_path} is the path to the generated audio files, and the audio file names need to correspond with the names in the caption files under */data*. 
+Where {generated_path} is the path to the generated audio files, and the audio file names need to correspond with the names in the caption files under */STEAMtool/data*. 
 {task_name} denotes the task type, with four tasks: "timestamp", "duration", "frequency", and "ordering"(default).
