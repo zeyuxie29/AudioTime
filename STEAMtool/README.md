@@ -16,8 +16,6 @@ pip install -e .
 Download the audio-text grounding (ATG) model [checkpoint](https://drive.google.com/file/d/1Zma4npCeTmdvoNc3xRvQrzpHRlJkRWK4/view?usp=sharing),
 and put it in the path *STEAMtool/steam/grounding_tool/grounding_ckpt/*.
 
-```
-
 ## Evaluation
 ```python
   python steam/runner/steam_eval.py -p {generated_path} -t {task_name}
