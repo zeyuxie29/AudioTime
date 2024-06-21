@@ -133,7 +133,7 @@
     </div>
     
     <div class="container pt-5 mt-5 shadow p-4 mb-5 bg-white rounded">
-        <h2 id="pipeline-overview" style="text-align: center;">AudioCaps-Strong Dataset Construction Pipeline</h2>
+        <h2 id="pipeline-overview" style="text-align: center;" class="custom-color">AudioCaps-Strong Dataset Construction Pipeline</h2>
         <br>
         <p style="text-align: center;">
             <img src="./DemoFile/acStrongPipeline_wide.png" height="200" width="800" class="img-fluid">
@@ -143,7 +143,7 @@
 
 
     <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
-      <h3 id="category1">(a) Ordering</h3>
+      <h3 id="category1" class="custom-color">(a) Ordering</h3>
       <p class="mb-0">
         The audio contains two sequential events, with each event occurring a random number of times. The alignment signal is <span class="custom-color">the sequence of event occurrences</span>.
         The metadata records the on- & off-set timestamp of events. 
@@ -187,7 +187,7 @@
     </div>
 
     <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
-      <h3 id="category2">(b) Duration</h3>
+      <h3 id="category2" class="custom-color">(b) Duration</h3>
       <p class="mb-0">
       The audio contains several events, each occurring once. The alignment signal is <span class="custom-color">the duration of each event</span>.
       The metadata records the duration of event occurrences.
@@ -229,7 +229,7 @@
     </div>
 
     <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
-      <h3 id="category3">(c) Frequency</h3>
+      <h3 id="category3" class="custom-color">(c) Frequency</h3>
       <p class="mb-0">
         Any event can occur any number of times. The alignment signal is <span class="custom-color">the frequency of event occurrences</span>. 
         The metadata records the onset timestamp of events. 
@@ -271,7 +271,7 @@
     </div>
 
     <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
-      <h3 id="category4">(d) Timestamp</h3>
+      <h3 id="category4" class="custom-color">(d) Timestamp</h3>
       <p class="mb-0">
         Any event can occur any number of times. The alignment signal is <span class="custom-color">the on- & off-set timestamps of event occurrences</span>.
         The metadata records the on- & off-set timestamp of events. 
@@ -313,7 +313,7 @@
     </div>
     
     <div class="container shadow p-5 mb-5 bg-white rounded">
-      <h3 id="category5">STEAM</h3> 
+      <h3 id="category5" class="custom-color">STEAM</h3> 
       <p class="mb-0">
         To better test and compare the temporal controllability of generative models, we propose STEAM (Strongly TEmporally-Aligned evaluation Metrics).
         STEAM is a text-based metric that  evaluates <span class="custom-color">whether the generated audio segments meet the control requirements specified by the input text.</span>
