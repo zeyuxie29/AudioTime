@@ -7,7 +7,7 @@
  Additionally, we offer a comprehensive test set and evaluation metrics STEAM to assess the temporal control performance of various models. 
 
  ## Dataset
-Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing).
+Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). Caption files are available at [AudioCap-Strong(caption)]().
 
 Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
 
@@ -16,9 +16,8 @@ Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.githu
 3. Frequency: "Sanding occurs **once**, followed by throat clearing **twice**."
 4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
-Caption files are available at [AudioCap-Strong(caption)]. 
+ 
 These files record the corresponding audio ID, captions, and metadata. 
-
 The metadata for the four tasks is recorded as follows:
 
 1. Ordering: On- & off-set timestamps.
