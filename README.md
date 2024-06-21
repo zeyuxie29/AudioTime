@@ -7,7 +7,22 @@
  Additionally, we offer a comprehensive test set and evaluation metrics STEAM to assess the temporal control performance of various models. 
 
  ## Dataset
-Download the dataset from [AudioCap-Strong]().
+Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing).
+
+Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
+(a).Ordering: "A yip occurs, _followed_ by a bleat after a short pause."
+(b).Duration: "A water tap or faucet ran _for 4.33 seconds_."
+(c).Frequency: "Sanding occurs _once_, followed by throat clearing _twice_."
+(d).Timestamp: "An explosion occurs _from 0.947 to 2.561 seconds_, and then breaking sounds are heard _from 4.368 to 5.790 seconds_."
+Caption files are available at [AudioCap-Strong(caption)]. 
+These files record the corresponding audio ID, captions, and metadata. 
+
+The metadata for the four tasks is recorded as follows:
+
+(a).Ordering: On- & off-set timestamps.
+(b).Duration: Duration of event occurrences.
+(c).Frequency: The onset timestamps of events.
+(d).Timestamp: On- & off-set timestamps of events.
 
  ## STEAM
 
