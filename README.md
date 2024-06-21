@@ -11,10 +11,10 @@ Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/fi
 
 Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
 
-1. Ordering: "A yip occurs, _followed_ by a bleat after a short pause."
-2. Duration: "A water tap or faucet ran _for 4.33 seconds_."
-3. Frequency: "Sanding occurs _once_, followed by throat clearing _twice_."
-4. Timestamp: "An explosion occurs _from 0.947 to 2.561 seconds_, and then breaking sounds are heard _from 4.368 to 5.790 seconds_."
+1. Ordering: "A yip occurs, **followed** by a bleat after a short pause."
+2. Duration: "A water tap or faucet ran **for 4.33 seconds**."
+3. Frequency: "Sanding occurs **once**, followed by throat clearing **twice**."
+4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
 Caption files are available at [AudioCap-Strong(caption)]. 
 These files record the corresponding audio ID, captions, and metadata. 
