@@ -1,6 +1,6 @@
 # AudioCap-Strong
 [![arXiv](https://img.shields.io/badge/arXiv-2308.05734-brightgreen.svg?style=flat-square)]() 
-[![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)]([https://audioldm.github.io/audioldm2/](https://zeyuxie29.github.io/AudioCap-Strong/))
+[![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://zeyuxie29.github.io/AudioCap-Strong/)
 
  we present a strongly aligned audio-text dataset, AudioCap-Strong. 
  It provides text annotations rich in temporal information such as timestamps, duration, frequency, interval, and ordering, covering almost all aspects of temporal control. 
