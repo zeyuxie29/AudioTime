@@ -1,363 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diverse Audio Generation</title>
-    <link rel="stylesheet" href="styles.css"> <!-- 添加样式文件链接 -->
+<!-- saved from url=(0034)https://zeyuxie29.github.io/AudioCap-Strong/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AudioCaps-Strong</title>
+    <link href="./DemoFile/bootstrap.min.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ece3e3;
-            margin: 0;
-            padding: 0;
-        }
+      td {
+        vertical-align: middle;
+      }
+      audio {
+        width: 20vw;
+        min-width: 100px;
+        max-width: 250px;
+      }
+      #scrollToTopBtn {
+        display: none; 
+        position: fixed; 
+        bottom: 50px; 
+        right: 100px; 
+        background-color: #027f41; 
+        color: #fff; 
+        border: none;
+        font-size: 16px; 
+        border-radius: 20%; 
+        padding: 20px;
+        cursor: pointer; 
+        z-index: 1;
+      }
+      #scrollToTopBtn:hover {
+        background-color: #69e7ca;
+      }
+      .custom-color {
+          color: #027f41;
+      }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
+      .sample_4 {
+            flex: 0 0 24%; 
+            border: 0px solid #ddd;
+            border-radius: 8px;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;    
+            
         }
-
-        nav {
-            background-color: #cec9c9;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.5;
-            margin-bottom: 5px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        audio {
-            width: 100%;
-            max-width: 320px;
-            margin: 1px 0;
-            padding: 0px;
-        }
-
-        img {
+        .sample_4 img {
             max-width: 100%;
-            height: 180px;
             width:auto;       
-            border-radius: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+  
+            
         }
-        .sample_container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+        .sample_4 img:hover {
+            transform: scale(1.6); 
+            z-index: 2;
         }
-
-        .sample_2 {
-            flex: 0 0 40%; /* 每个样例占30%的宽度 */
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            padding: 10px;
-            margin: 10px;
-            background-color: #d4bbbb;
-            text-align: center;
-        }
-        .sample_3 {
-            flex: 0 0 30%; /* 每个样例占30%的宽度 */
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            padding: 10px;
-            margin: 10px;
-            background-color: #d4bbbb;
-            text-align: center;
-        }
-        .sample_4 {
-            flex: 0 0 21%; /* 每个样例占30%的宽度 */
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            padding: 10px;
-            margin: 10px;
-            background-color: #d4bbbb;
-            text-align: center;
-        }
+        
     </style>
-</head>
-<body>
-    <header>
-        <h1>Diverse Audio Generation</h1>
-        
-        <p>Welcome to our demo website, where you can listen to various audio samples we've generated in different categories. </p>
-        <!--
-        <p>You can quickly navigate to the category you want to hear using the navigation bar.</p>
-        -->
-    </header>
-    <!--
-    <nav>
-        <ul>
-            <li><a href="#section1" class="anchor-link">Dog Bark</a></li>
-            <li><a href="#section2" class="anchor-link">Footstep</a></li>
-            <li><a href="#section3" class="anchor-link">Gunshot</a></li>          
-            <li><a href="#section4" class="anchor-link">Keyboard</a></li>
-            <li><a href="#section5" class="anchor-link">Moving Motor Vehicle</a></li>
-            <li><a href="#section6" class="anchor-link">Rain</a></li>
-        </ul>
-    </nav>
-     -->
-     <nav></nav>
-    <div class="container">
-        
-        <section id="section1">
-            
-            <h2>Dog Bark</h2>
-            <div class="sample_container">
-                <div class="sample_2">
-                    <img src="demo/prototype/dog_bark_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_2">
-                    <img src="demo/prototype/dog_bark_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/dog_bark/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    
-                </div>          
-            </div>         
+  </head>
+  <body>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Back to top navigation bar">↑ Top ↑</button>
+    <script>
+      
+        window.onscroll = function() {scrollFunction()};
 
-        </section>
-
-        <section id="section2">
-            <h2>Footstep</h2>
-            <div class="sample_container">
-                <div class="sample_2">
-                    <img src="demo/prototype/footstep_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_2">
-                    <img src="demo/prototype/footstep_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/footstep/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    
-                </div>          
-            </div>         
-        </section>
-        <section id="section3">
-            <h2>Gunshot <font color="red">Caution, Please lower the volume!</font></h2>
-            <div class="sample_container">
-                <div class="sample_4">
-                    <img src="demo/prototype/gunshot_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_4">
-                    <img src="demo/prototype/gunshot_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>  
-
-                </div>        
-                <div class="sample_4">
-                    <img src="demo/prototype/gunshot_3.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/3_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/3_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_4">
-                    <img src="demo/prototype/gunshot_4.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/4_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/gunshot/4_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>    
-            </div>         
-            
-        </section>
-        <section id="section4">
-            <h2>Keyboard</h2>
-            <div class="sample_container">
-                <div class="sample_3">
-                    <img src="demo/prototype/keyboard_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_3">
-                    <img src="demo/prototype/keyboard_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    
-                </div>        
-                <div class="sample_3">
-                    <img src="demo/prototype/keyboard_3.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/3_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/keyboard/3_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                 
-            </div>         
-        </section>
-        <section id="section5">
-            <h2>Moving Motor Vehicle</h2>
-            <div class="sample_container">
-                <div class="sample_2">
-                    <img src="demo/prototype/moving_motor_vehicle_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-                <div class="sample_2">
-                    <img src="demo/prototype/moving_motor_vehicle_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/moving_motor_vehicle/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    
-
-                </div>          
-            </div>      
-        </section>
-        <section id="section6">
-            <h2>Rain</h2>
-            <div class="sample_container">
-                <div class="sample_3">
-                    <img src="demo/prototype/rain_1.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/1_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/1_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-
-                </div>
-                <div class="sample_3">
-                    <img src="demo/prototype/rain_2.jpg" alt="fig 2">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/2_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/2_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    
-                  
-                </div>        
-                <div class="sample_3">
-                    <img src="demo/prototype/rain_3.jpg" alt="fig 1">
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/3_1.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <audio controls>
-                        <source src="demo/audios_AudioDiffusion-guidance-3/rain/3_2.wav" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-   
-                </div>
-                 
-            </div>         
-        </section>
-        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollToTopBtn").style.display = "none";
+            }
+        }
+      
+        function scrollToTop() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+    <div class="container pt-5 mt-5 shadow p-4 mb-5 bg-white rounded">
+      <div class="text-center">
+        <h1><span class="custom-color">AudioCaps-Strong</span></h1><h3>A Temporally-aligned Audio-text Benchmark Dataset</h3>
+        <p class="lead fw-bold">
+          |<a href="" class="btn border-white bg-white fw-bold">Paper</a>|<a href="https://github.com/zeyuxie29/AudioCap-Strong" class="btn border-white bg-white fw-bold">Code</a>|
+        </p>
+        <p class="fst-italic mb-0">
+          <span class="author-block">
+            <a href="https://scholar.google.de/citations?user=LzSAnHMAAAAJ&hl=en&oi=ao">Zeyu Xie</a><sup>1,2</sup>,</span>
+          
+          <span class="author-block">
+            <a href="https://scholar.google.de/citations?user=e0h0ae8AAAAJ&hl=en&oi=ao">Xuenan Xu</a><sup>1</sup>,
+          </span>
+          <span class="author-block">
+            <a href="https://scholar.google.de/citations?user=K6zhweAAAAAJ&hl=en&oi=ao">Zhizheng Wu</a><sup>2,3</sup>,
+          </span>
+          <span class="author-block">
+            <a href="https://scholar.google.de/citations?user=9cvRM5wAAAAJ&hl=en&oi=ao">Mengyue Wu</a><sup>1</sup>,
+          </span>
+          
+        </span></p>
+        <p><b></b></p>
+      </div>
+      <div style="text-align: center">
+        <span class="author-block"><sup>1</sup>X-LANCE Lab, Shanghai Jiao Tong University</span>
+      </div>
+      <div style="text-align: center">
+        <span class="author-block"><sup>2</sup>Shanghai AI Lab,</span>
+        <span class="author-block"><sup>3</sup>Chinese University of Hong Kong, Shenzhen</span>
+      </div>
+      <p>
+        <b><p class="custom-color">Abstract.</p></b>  
+        Significant progress has been witnessed in text-to-audio generation tasks recently.
+        Highly realistic audio clips can now be generated based on free text description. 
+        <span class="custom-color">However, current mainstream models still lack precise control, resulting in limited practical utility.</span>
+        Specifically, users cannot accurately control the timestamps of sound events using free-form text. 
+        We acknowledge that a significant factor is the absence of <span class="custom-color">high-quality, temporally-aligned</span> audio-text datasets, which are essential for training models with temporal control. 
+        The more detailed the annotations, the better the models can understand the precise relationship between audio outputs and temporal textual prompts.
+        Therefore, we present a strongly aligned audio-text dataset, <span class="custom-color">AudioCap-Strong</span>. 
+        It provides text annotations rich in temporal information such as timestamps, duration, frequency, interval, and ordering, covering almost all aspects of temporal control. 
+        Additionally, we offer a comprehensive test set and evaluation metrics <span class="custom-color">STEAM</span> to assess the temporal control performance of various models. 
+        The data and evaluation scripts available at <a href="">AudioCap-Strong Download</a> and <a href="https://github.com/zeyuxie29/AudioCap-Strong/tree/main/STEAMtool">STEAMtool</a> respectively.
+      </p>
+      
+      <b class="custom-color">Demo Navigation.</b>
+      <div style="text-align: center;">
+        <a href="#category1" class="btn border-white bg-white fw-bold">(a) Ordering</a>
+        <a href="#category2" class="btn border-white bg-white fw-bold">(b) Duration</a>
+        <a href="#category3" class="btn border-white bg-white fw-bold">(c) Frequency</a>
+        <a href="#category4" class="btn border-white bg-white fw-bold">(d) Timestamp</a>
+        <a href="#category5" class="btn border-white bg-white fw-bold">(evaluation) STEAM </a>
+      </div>
     </div>
+    
+    <div class="container pt-5 mt-5 shadow p-4 mb-5 bg-white rounded">
+        <h2 id="pipeline-overview" style="text-align: center;">AudioCaps-Strong Dataset Construction Pipeline</h2>
+        <br>
+        <p style="text-align: center;">
+            <img src="./DemoFile/acStrongPipeline_wide.png" height="200" width="800" class="img-fluid">
+        </p>
+        <div style="text-align: center">Dataset construction pipeline:  (1) data curation and filtration; (2) simulating audio and organizing metadata; (3) generating captions using LLM agents.</div>
+    </div>
+
+
+    <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
+      <h3 id="category1">(a) Ordering</h3>
+      <p class="mb-0">
+        The audio contains two sequential events, with each event occurring a random number of times. The alignment signal is <span class="custom-color">the sequence of event occurrences</span>.
+        The metadata records the on- & off-set timestamp of events. 
+      </p>
+      <div class="container pt-3 table-responsive">
+        <table class="table table-hover" id="supervision-efficiency-table">
+          <thead>
+            <tr>
+              <th style="text-align: center">&emsp;&emsp;&emsp;&emsp;Caption&emsp;&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Waveform&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Metadata&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">Audio</th>     
+            </tr>
+          </thead>
+          <tbody>
+            <tr> <td><font size="-1">A buzzer sounds initially, <u>followed by</u> a busy signal repeating three times.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/ordering_syn_1.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Buzzer": [[0.871,1.637]],"Busy signal": [[4.32,5.297],[5.654,6.631],[7.951,8.928]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/ordering_syn_1.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+               
+               
+            <tr> <td><font size="-1">A mosquito buzzes twice, <u>followed by</u> the sound of a drill.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/ordering_syn_2.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Mosquito": [[1.358,2.799], [4.164,5.573]], "Drill": [[7.159,10.0]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/ordering_syn_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+          
+            <tr> <td><font size="-1">An air horn blasts three times, <u>followed by</u> two knocks.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/ordering_syn_3.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Air horn, truck horn": [[0.925,1.468],[2.053,2.596],[2.963,3.506]],"Knock": [[5.795,5.998], [6.773,6.976]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/ordering_syn_3.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+            
+            <tr><td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+            </tr>
+                             
+         </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
+      <h3 id="category2">(b) Duration</h3>
+      <p class="mb-0">
+      The audio contains several events, each occurring once. The alignment signal is <span class="custom-color">the duration of each event</span>.
+      The metadata records the duration of event occurrences.
+      </p>
+      <div class="container pt-3 table-responsive">
+        <table class="table table-hover" id="speech-diversity">
+          <thead>
+            <tr>
+              <th style="text-align: center">&emsp;&emsp;&emsp;&emsp;Caption&emsp;&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Waveform&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Metadata&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">Audio</th> 
+            </tr>
+          </thead>
+          <tbody>
+            <tr> <td><font size="-1">A neigh and whinny occurred <u>for 1.811 seconds</u>, followed by a train whistle <u></u>lasting 3.677 seconds</u>.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/duration_syn_5.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Neigh, whinny": [1.811],"Train whistle": [3.677]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/duration_syn_5.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+                          
+           <tr> <td><font size="-1">A rumble occurred for 7.606 seconds.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/duration_syn_6.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Rumble": [7.606]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/duration_syn_6.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+             
+           <tr> <td><font size="-1">A squeak lasted <u>for 0.302 seconds</u>, followed by a quack <u>for 0.314 seconds</u>.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/duration_syn_11.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Squeak": [0.302],"Quack": [0.314]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/duration_syn_11.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+           
+            <tr><td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+            </tr>
+         </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
+      <h3 id="category3">(c) Frequency</h3>
+      <p class="mb-0">
+        Any event can occur any number of times. The alignment signal is <span class="custom-color">the frequency of event occurrences</span>. 
+        The metadata records the onset timestamp of events. 
+      </p>
+      <div class="container pt-3 table-responsive">
+        <table class="table table-hover" id="prompting-table">
+          <thead>
+            <tr>
+              <th style="text-align: center">&emsp;&emsp;&emsp;&emsp;Caption&emsp;&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Waveform&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Metadata&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">Audio</th> 
+            </tr>
+          </thead>
+          <tbody>
+            <tr> <td><font size="-1">Sanding occurs <u>once</u>, followed by throat clearing <u>twice</u>.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/frequency_syn_11.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Sanding": [1.735],"Throat clearing": [6.347,8.794]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/frequency_syn_11.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+        
+           <tr> <td><font size="-1">A whip cracks <u>twice</u>, followed by a whoosh sound <u>once</u>, and ends with a slam occurring <u>once</u>.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/frequency_syn_10.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Whip": [0.973,2.783],"Whoosh, swoosh, swish": [5.758],"Slam":[9.068]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/frequency_syn_10.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+            
+           <tr> <td><font size="-1">The spray occurred <u>twice</u>, followed by <u>one instance</u> of barking.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/frequency_syn_111.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1"> "Spray": [1.393,3.159],"Bark": [6.451]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/frequency_syn_111.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+              
+            <tr><td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container pb-0 shadow p-5 mb-5 bg-white rounded">
+      <h3 id="category4">(d) Timestamp</h3>
+      <p class="mb-0">
+        Any event can occur any number of times. The alignment signal is <span class="custom-color">the on- & off-set timestamps of event occurrences</span>.
+        The metadata records the on- & off-set timestamp of events. 
+      </p>
+      <div class="container pt-3 table-responsive">
+        <table class="table table-hover" id="prompting-table">
+          <thead>
+            <tr>
+              <th style="text-align: center">&emsp;&emsp;&emsp;&emsp;Caption&emsp;&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Waveform&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">&emsp;&emsp;&emsp;Metadata&emsp;&emsp;&emsp;</th>
+              <th style="text-align: center">Audio</th> 
+            </tr>
+          </thead>
+          <tbody>
+            <tr> <td><font size="-1">An electric shaver buzzes <u>from 1.056 to 5.158 seconds</u>, followed by a jackhammer pounding <u>from 7.66 to 10 seconds</u>.</font></td>
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/timestamp_syn_1.png" alt="Your Image"></a></td>  
+              <td style="text-align: center"><font size="-1">"Electric shaver, electric razor": [[1.056,5.158]],"Jackhammer": [[7.66,10.0]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/timestamp_syn_1.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+            
+           <tr> <td><font size="-1">A cap gun fires <u>from 1.045 to 1.438 seconds and again from 2.46 to 2.775 seconds</u>, followed by a door sound <u>from 4.91 to 5.288 seconds</u>.</font></td> 
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/timestamp_syn_10.png" alt="Your Image"></a></td> 
+              <td style="text-align: center"><font size="-1">"Cap gun": [[1.045,1.438],[2.46,2.775]],"Door": [[4.91,5.288]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/timestamp_syn_10.wav" type="audio/wav">Your browser does not support the audio element.</audio></td> 
+            
+           <tr> <td><font size="-1">A vehicle horn honks <u>from 1.004 to 1.996 seconds</u>, followed by baby laughter twice, <u>from 4.261 to 5.26 and 5.799 to 7.796 seconds</u>.</font></td>
+              <td><a class="sample_4"><img src="./DemoFile/data/fig/timestamp_syn_128.png" alt="Your Image"></a></td>  
+              <td style="text-align: center"><font size="-1">"Vehicle horn, car horn, honking, toot": [[1.004,1.996]],"Baby laughter": [[4.261,5.26],[5.799,7.796]]</font></td> 
+              <td style="text-align: center"><audio controls="" controlslist="nodownload" class="px-1"> <source src="./DemoFile/data/audio/timestamp_syn_128.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+
+            <tr><td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+              <td style="border-bottom: none;"><br></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="container shadow p-5 mb-5 bg-white rounded">
+      <h3 id="category5">STEAM</h3> 
+      <p class="mb-0">
+        To better test and compare the temporal controllability of generative models, we propose STEAM (Strongly TEmporally-Aligned evaluation Metrics).
+        STEAM is a text-based metric that  evaluates <span class="custom-color">whether the generated audio segments meet the control requirements specified by the input text.</span>
+        An audio-text grounding model is employed to detect the onset and offset of events in generated audio. 
+        <span class="custom-color">STEAM assesses control performance based on detected timestamps and the control signal provided by the input free text.</span>
+        <br><br>
+        <ul style="list-style: outside none none !important;">
+          <li>(a) Ordering: To determine whether the audio generates events A and B in the specified order, quantified by the <span class="custom-color">error rate</span>.
+          Specifically, the onset of A should occur before B.
+          If there is overlap, it should not exceed half the duration of the shorter event (otherwise, they are considered simultaneous). </li><br>
+
+          <li>(b) Duration / (c) frequency: Calculate the <span class="custom-color">absolute error</span> 
+            between the event duration/frequency in the generated audio and the value specified in the text, averaged over the total number of events.</li><br>
+
+          <li>(d) Timestamp: To measure the accuracy of controlling audio timestamps.
+          <span class="custom-color">Segment F1</span>, a common metric in sound event detection tasks, is calculated using the detected and specified on- & off-set timestamp.</li>
+        </ul>
+        
+      </p>
+      The testing script is available at <a href="https://github.com/zeyuxie29/AudioCap-Strong/tree/main/STEAMtool">STEAMtool</a>.
+      We test some currently influential TTA generation models.
+      <br><br>
+      <p style="text-align: center;">
+        <img src="./DemoFile/Exp_result.png" height="200" width="800" class="img-fluid">
+      </p>
+      
+    </div>
+
     <footer>
-        &copy; 2023 Diverse Audio Generation
+      &copy; 2024 PicoAudio
     </footer>
-</body>
-</html>
+
+  
+</body></html>
