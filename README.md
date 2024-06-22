@@ -10,19 +10,19 @@
 Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). Caption files are available at [AudioCap-Strong(caption)]().
 The directory structure should be:
 ```
-useful_ckpts/
-├── train
-│   ├── train5000_ordering
-│   │   ├── ordering_captions.json
-│   │   └── audio
-│   │       ├── syn_1.wav
-│   │       ├── syn_2.wav
-│   │       ├── ...
-│   │       └── syn_5000.wav  
-│   └── ...
-└── test
-    ├── ...
-    └── ...
+AudioCap-Strong/
+├── train/
+│   ├── train5000_ordering/
+│   │   ├── audio/
+│   │   │   ├── syn_1.wav
+│   │   │   ├── syn_2.wav
+│   │   │   ├── ...
+│   │   │   └── syn_5000.wav
+│   │   └── ordering_captions.json
+│   ├── ...   
+│   └── train5000_timestamp/
+└── test/
+    
 
 ```
 Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
