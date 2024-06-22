@@ -8,7 +8,23 @@
 
  ## Dataset
 Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). Caption files are available at [AudioCap-Strong(caption)]().
+The directory structure should be:
+```
+useful_ckpts/
+├── train
+│   ├── train5000_ordering
+│   │   ├── ordering_captions.json
+│   │   └── audio
+│   │       ├── syn_1.wav
+│   │       ├── syn_2.wav
+│   │       ├── ...
+│   │       └── syn_5000.wav  
+│   └── ...
+└── test
+    ├── ...
+    └── ...
 
+```
 Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
 
 1. Ordering: "A yip occurs, **followed** by a bleat after a short pause."
@@ -16,7 +32,8 @@ Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.githu
 3. Frequency: "Sanding occurs **once**, followed by throat clearing **twice**."
 4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
- 
+ ![image](https://github.com/zeyuxie29/AudioCap-Strong/assets/137248520/b29ae3ef-3e91-4147-9aa6-bc086e1903e3)
+
 These files record the corresponding audio ID, captions, and metadata. 
 The metadata for the four tasks is recorded as follows:
 
