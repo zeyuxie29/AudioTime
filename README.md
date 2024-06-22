@@ -2,7 +2,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2308.05734-brightgreen.svg?style=flat-square)]() 
 [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://zeyuxie29.github.io/AudioCap-Strong/)
 
- we present a strongly aligned audio-text dataset, AudioCap-Strong. 
+ We present a strongly aligned audio-text dataset, AudioCap-Strong. 
  It provides text annotations rich in temporal information such as timestamps, duration, frequency, and ordering, covering almost all aspects of temporal control. 
  Additionally, we offer a comprehensive test set and evaluation metrics STEAM to assess the temporal control performance of various models. 
 
