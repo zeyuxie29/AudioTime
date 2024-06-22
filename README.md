@@ -14,7 +14,7 @@
 4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
 
-You can download the data from [AudioCap-Strong(train)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) and [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). 
+You can download the data from [AudioCap-Strong(train)](https://drive.google.com/file/d/1F26ta621Y8dUe19XVCxtSpl_2meDUtbS/view?usp=sharing) and [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). 
 The directory structure is:
 ```
 AudioCap-Strong/
