@@ -7,8 +7,15 @@
  Additionally, we offer a comprehensive test set and evaluation metrics STEAM to assess the temporal control performance of various models. 
 
  ## Dataset
-Download the audio files from [AudioCap-Strong(all)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). Caption files are available at [AudioCap-Strong(caption)]().
-The directory structure should be:
+ Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
+1. Ordering: "A yip occurs, **followed** by a bleat after a short pause."
+2. Duration: "A water tap or faucet ran **for 4.33 seconds**."
+3. Frequency: "Sanding occurs **once**, followed by throat clearing **twice**."
+4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
+
+
+You can download the data from [AudioCap-Strong(train)](https://drive.google.com/file/d/1-uW9Gler_sfynIxFSaES2pYhMPR3yX3n/view?usp=sharing) or [AudioCap-Strong(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing). 
+The directory structure is:
 ```
 AudioCap-Strong/
 ├── train/
@@ -22,25 +29,11 @@ AudioCap-Strong/
 │   ├── ...   
 │   └── train5000_timestamp/
 └── test/
-    
-
 ```
-Audio samples can be found in the [AudioCap-Strong-Demo](https://zeyuxie29.github.io/AudioCap-Strong/). There are four types of alignment signals:
+The JSON files contain annotations, including **audio_id**, **metadata**, and **GPT-generated captions**. The dataset statistics are shown in the figure below.
+ ![image](https://github.com/zeyuxie29/AudioCap-Strong/assets/137248520/64ba5c46-0d80-4291-8b35-beda48b85b49)
 
-1. Ordering: "A yip occurs, **followed** by a bleat after a short pause."
-2. Duration: "A water tap or faucet ran **for 4.33 seconds**."
-3. Frequency: "Sanding occurs **once**, followed by throat clearing **twice**."
-4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
- ![image](https://github.com/zeyuxie29/AudioCap-Strong/assets/137248520/b29ae3ef-3e91-4147-9aa6-bc086e1903e3)
-
-These files record the corresponding audio ID, captions, and metadata. 
-The metadata for the four tasks is recorded as follows:
-
-1. Ordering: On- & off-set timestamps.
-2. Duration: Duration of event occurrences.
-3. Frequency: The onset timestamps of events.
-4. Timestamp: On- & off-set timestamps of events.
 
  ## STEAM
 
