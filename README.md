@@ -31,7 +31,8 @@ AudioTime/
 └── test/
 ```
 The JSON files contain annotations, including **audio_id**, **metadata**, and **GPT-generated captions**. The dataset statistics are shown in the figure below.
- ![image](https://github.com/zeyuxie29/AudioTime/assets/137248520/64ba5c46-0d80-4291-8b35-beda48b85b49)
+![image](https://github.com/zeyuxie29/AudioTime/assets/137248520/1d22c4a5-f4c9-4142-8661-0f85b1909dbc)
+
 
 
 
