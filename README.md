@@ -14,7 +14,7 @@
 4. Timestamp: "An explosion occurs **from 0.947 to 2.561 seconds**, and then breaking sounds are heard **from 4.368 to 5.790 seconds**."
 
 
-You can download the data from GoogleDrive: [AudioTime(train)](https://drive.google.com/file/d/1F26ta621Y8dUe19XVCxtSpl_2meDUtbS/view?usp=sharing) and [AudioTime(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing), or [BaiduNetDisk](https://pan.baidu.com/s/1aLMjAwuPgjLxPyo5v-K4xw?pwd=time) with the extraction code "time". 
+You can download the data from GoogleDrive: [AudioTime(train)](https://drive.google.com/file/d/1F26ta621Y8dUe19XVCxtSpl_2meDUtbS/view?usp=sharing) and [AudioTime(test)](https://drive.google.com/file/d/1Xdpc7oY2oK4edUJCUW-vknQaNTBOpE1T/view?usp=sharing), or from [BaiduNetDisk](https://pan.baidu.com/s/1aLMjAwuPgjLxPyo5v-K4xw?pwd=time) with the extraction code "time". 
 The directory structure is:
 ```
 AudioTime/
