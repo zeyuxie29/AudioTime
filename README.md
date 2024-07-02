@@ -30,7 +30,30 @@ AudioTime/
 │   └── train5000_timestamp/
 └── test/
 ```
-The JSON files contain annotations, including **audio_id**, **metadata**, and **GPT-generated captions**. The dataset statistics are shown in the figure below.
+The JSON files contain annotations, including **audio_id**, **metadata**, and **GPT-generated captions**. An example is shown below：
+```
+"syn_1": {
+        "event": {
+            "Electric shaver, electric razor": [
+                [
+                    1.056,
+                    5.158
+                ]
+            ],
+            "Jackhammer": [
+                [
+                    7.66,
+                    10.0
+                ]
+            ]
+        },
+        "caption": [
+            "An electric shaver buzzes from 1.056 to 5.158 seconds, followed by a jackhammer pounding from 7.66 to 10 seconds.",
+            "Yes."
+        ]
+    },
+```
+The dataset statistics are shown in the figure below.
 ![image](https://github.com/zeyuxie29/AudioTime/assets/137248520/1d22c4a5-f4c9-4142-8661-0f85b1909dbc)
 
 
