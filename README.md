@@ -47,10 +47,7 @@ The JSON files contain annotations, including **audio_id**, **metadata**, and **
                 ]
             ]
         },
-        "caption": [
-            "An electric shaver buzzes from 1.056 to 5.158 seconds, followed by a jackhammer pounding from 7.66 to 10 seconds.",
-            "Yes."
-        ]
+        "caption": "An electric shaver buzzes from 1.056 to 5.158 seconds, followed by a jackhammer pounding from 7.66 to 10 seconds."
     },
 ```
 The dataset statistics are shown in the figure below.
